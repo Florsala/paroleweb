@@ -148,7 +148,6 @@ body {
 
 #inicio {
   margin-bottom: 8rem;
-  height: calc(100vh-70px);
   z-index: 2;
 }
 

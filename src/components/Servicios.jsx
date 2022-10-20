@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "../styles/Servicios.css";
 import person from "../assets/bxs-group.svg";
-import read from "../assets/read.svg";
 
 import dots from "../assets/dots.svg";
 
-import {FiChevronDown,FiChevronUp} from "react-icons/fi";
+import {FiChevronDown} from "react-icons/fi";
 import SliderC from "./SliderC";
 import Servicios2 from "./Servicios2";
 

@@ -27,16 +27,10 @@ useEffect(() => {
 
     const [click, setClick] = useState(false)
 
-    const handleClick = (e) => {
-
-       setClick(!click);
-
-       console.log(e.target);
-    } 
+  
 
 
-    const [open, setOpen] = useState(false);
-   
+     
   
     let mainRef = useRef();
   

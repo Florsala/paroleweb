@@ -29,7 +29,6 @@ const Number01 = () => {
         } 
     
     
-        const [open, setOpen] = useState(false);
        
       
         let mainRef = useRef();
