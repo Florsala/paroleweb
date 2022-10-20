@@ -43,7 +43,7 @@ const NavBar = () => {
         </div>
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li onClick={() => scrollToSection(inicio)} className="nav-item">
+          <li  className="nav-item">
             <img className="ico" src={Elipse} alt="" />
             <Link to="/#inicio" smooth onClick={() => setClick(false)}>
               INICIO
@@ -51,20 +51,20 @@ const NavBar = () => {
           </li>
           {/*           <span className="active-menu"></span>
            */}{" "}
-          <li onClick={() => scrollToSection(servicios)} className="nav-item">
+          <li  className="nav-item">
             <img className="ico" src={Elipse} alt="" />
             <Link to="/#servicios" smooth onClick={() => setClick(false)}>
               {" "}
               SERVICIOS
             </Link>
           </li>
-          <li onClick={() => scrollToSection(nosotros)} className="nav-item">
+          <li className="nav-item">
             <img className="ico" src={Elipse} alt="" />
             <Link to="/#nosotros" smooth onClick={() => setClick(false)}>
               NOSOTROS
             </Link>
           </li>
-          <li onClick={() => scrollToSection(contacto)} className="nav-item">
+          <li  className="nav-item">
             <img className="ico" src={Elipse} alt="" />
             <Link to="/#contacto" smooth onClick={() => setClick(false)}>
               CONTACTO
