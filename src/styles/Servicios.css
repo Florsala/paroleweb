@@ -1,0 +1,157 @@
+.Serv-title {
+  font-weight: 700;
+  font-size: 3.75rem;
+  line-height: 4.5625rem;
+  position: absolute;
+  z-index: 1;
+}
+
+.Serv-container {
+  position: relative;
+  margin-left: 4.375rem;
+  height: 6.5rem;
+}
+
+.Serv-circle-pink {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background: var(--pale-pink);
+  border-radius: 50%;
+  transform: translate(-2.25rem, 1.0625rem);
+}
+
+.Serv-circle-dash {
+  position: absolute;
+  width: 12.5rem;
+  height: 12.5rem;
+  left: 13.125rem;
+  border: 4px dashed var(--paleLila-color);
+  border-radius: 50%;
+}
+
+.Serv-box-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+.Serv-box,
+.Serv-box2 {
+  width: 28rem;
+  height: 26rem;
+  z-index: 1;
+  margin: 3rem;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.5625rem;
+/*   transition: all 2s;
+ */}
+
+.Serv-box.open,
+.Serv-box2.open {
+  height: 35rem;
+ /*  transition: height 0.2s;  */
+}
+
+.Serv-box-text,
+.Serv-box-text2 {
+  height: 4.5rem;
+}
+
+
+
+
+
+.circle-purple {
+  width: 5.9444rem;
+  height: 5.625rem;
+  border-radius: 50%;
+  background: #3604ab;
+  margin-left: 2rem;
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.Serv-box-title {
+  width: 19.3513rem;
+  height: 6.4375rem;
+
+  font-weight: 600;
+  font-size: 1.625rem;
+  line-height: 2.4375rem;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.Serv-box-content,
+.Serv-box-content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 22rem;
+  margin: 1.25rem auto;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.Serv-box-content ul,
+.Serv-box-content ul {
+  display: list-item;
+}
+
+.chevron-down_svs,
+.chevron-down_svs2 {
+  width: 5rem;
+  margin-top: 2rem;
+  height: 3rem;
+  color: var(--purple-color);
+  cursor: pointer;
+  
+}
+
+.chevron-down_svs.open,
+.chevron-down_svs2.open {
+  transition: 4s ease all;
+
+ 
+}
+
+.chevron-up,
+.chevron-up2 {
+  margin-top: 11rem;
+  height: 3rem;
+  color: var(--purple-color);
+  cursor: pointer;
+  width: 5rem;
+/*   transition: margin-top 2s;
+ */}
+
+
+
+.chevron-down_svs,
+.chevron-down_svs2{
+  animation: bouncer  1.4s  infinite;
+ }
+  
+  @keyframes bouncer {
+    0% {
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(0.2rem);
+    }
+  }
+
+  .line4{
+    position: absolute;
+    transform: translate(15px, 6px);
+    rotate: 348deg;  
+    width: 32.8125rem;
+    height: 36.375rem;  
+  }

@@ -1,0 +1,105 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 1rem;
+
+/*   width: 60rem;
+ */
+  margin-left: 2rem;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.form .attach{
+  background: none;
+    font-size: 0.75rem;
+    width: 20rem;
+    
+    font-family:inherit;
+    padding: 0.4rem;
+}
+
+.attach::-webkit-file-upload-button{
+  border-radius: 0.7rem;
+  background-color: #ccbcf1;
+  font-family: inherit;
+  height: 2rem;
+  border: solid 0.0938rem rgb(94, 90, 90);
+  cursor: pointer;
+
+color: black;
+}
+
+.form input {
+  width: 40%;
+  height: 3.9663rem;
+  border: none;
+  background: #b9a2f0;
+  border-radius: 0.9375rem;
+  margin: 0.5rem;
+
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #000000;
+  text-align: start;
+  padding: 1.2rem;
+  z-index: 1;
+}
+
+.form textarea {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #000000;
+  text-align: start;
+  padding: 1.2rem;
+  font-family: inherit;
+  border: none;
+  min-width: 5rem;
+  min-height: 4rem;
+  background: rgb(185, 162, 240);
+  border-radius: 0.9375rem;
+  margin: 0.5rem;
+  max-height: 6.25rem;
+  height: 4rem;
+  overflow: hidden;
+}
+
+.form input[type="submit"] {
+  display: block;
+  margin: 0.5rem;
+  border: none;
+  cursor: pointer;
+
+  padding: 0.625rem;
+
+  transition: 0.3s ease all;
+
+  width: 8.9375rem;
+  height: 3.9663rem;
+
+  background: #ffffff;
+  box-shadow: 0px 0.25rem 0.25rem rgb(0 0 0 / 25%);
+  border-radius: 0.9375rem;
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 2.0625rem;
+  color: #3604ab;
+  text-align: center;
+}
+
+.cv {
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-decoration-line: underline;
+  padding-left: 0.3125rem;
+  color: #ffffff;
+}
+
+
+.exito{
+  color: aliceblue;
+  font-size: 1rem;
+}

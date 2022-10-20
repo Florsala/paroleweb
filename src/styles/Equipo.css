@@ -1,0 +1,134 @@
+.Eq-container {
+  position: relative;
+
+  height: 9.5rem;
+  margin-right: 14rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8rem;
+}
+
+.Eq-circle-dash {
+  position: absolute;
+  width: 15.5rem;
+  height: 15.5rem;
+  border: 4px dashed var(--paleLila-color);
+  border-radius: 50%;
+  transform: translate(12.1875rem, -3.375rem);
+  opacity: 0.4;
+}
+
+.Eq-circle-pink {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background: var(--pale-pink);
+  border-radius: 50%;
+  transform: translate(-27.25rem, 1.0625rem);
+}
+
+.Eq-container-p {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+  margin-bottom: 8rem;
+  margin-top: 2rem;
+}
+
+.Eq-container-p-box {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+
+  height: 26rem;
+  width: 26rem;
+}
+
+.Eq-container-p-box img {
+  width: 11.25rem;
+  height: 11.25rem;
+  object-fit: cover;
+
+  border-radius: 50%;
+}
+
+.Eq-container-p-box h5 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.1875rem;
+  margin-bottom: 1rem;
+
+  color: #000000;
+}
+
+.Eq-container-p-box ul {
+  list-style: none;
+  font-size: 1rem;
+}
+
+.box-img {
+  height: 11.25rem;
+  width: 11.25rem;
+  position: relative;
+  margin: 1.875rem auto;
+}
+
+.drop {
+  position: absolute;
+  width: 2.8125rem;
+  height: 2.7088rem;
+  background-color: var(--light-pink);
+  border-radius: 50%;
+  transform: translate(8.375rem, -3.5rem);
+}
+
+.box-text {
+  height: 15.625rem;
+  width: 28.125rem;
+}
+
+/* seccion trabaja con nosotros */
+
+.trab-container {
+  width: 80%;
+  height: auto;
+
+  background: var(--purple-color);
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1.5625rem;
+
+  margin: 4rem auto;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding: 2rem;
+
+  
+}
+
+
+
+.trab-container-text {
+  width: 100%;
+  margin-left: 2rem;
+}
+
+.trab-container-text h3 {
+  font-weight: 700;
+  font-size: 3.125rem;
+  color: #e7e6e9;
+}
+
+
+.line7{
+  position:absolute;
+  width: 33.4375rem;
+    height: 33.4375rem;
+    transform: translate(-8.1875rem, 0.625rem);
+}

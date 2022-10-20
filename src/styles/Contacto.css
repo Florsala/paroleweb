@@ -1,0 +1,134 @@
+#contacto{
+  margin-bottom: 8rem;
+}
+
+.Ct-container-head{
+    display: flex;
+    align-items: center;
+
+}
+
+.Ct-container-head h3{
+
+    font-weight: 700;
+    font-size: 3.125rem;
+    line-height: 4.6875rem;
+
+}
+
+.Ct-container {
+  position: relative;
+    height: 10.5rem;
+    margin-top: 16rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;}
+
+.Ct-circle-pink {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background: var(--pale-pink);
+  border-radius: 50%;
+  transform: translate(-0.875rem, 1.0625rem);
+}
+
+.Ct-container-2 {
+  width: 80%;
+  min-height: 25rem;
+  background: rgba(86, 22, 238, 0.31);
+  box-shadow: 0.125rem 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.5625rem;
+  margin: 2rem auto;
+
+  display: flex;
+  flex-flow: row wrap;
+
+  justify-content: flex-start;
+  padding: 2rem;
+}
+
+.LogoFooter {
+  width: 13.75rem;
+  height: 13.75rem;
+  margin: 0 auto;
+}
+
+.form-2{
+    width: 53rem;
+    margin-top: -90px;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+}
+
+.form-2 input {
+  width: 50%;
+  height: 3.9663rem;
+
+  background: #b9a2f0;
+  border-radius: 0.9375rem;
+  margin: 0.5rem;
+
+  border: none;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #000000;
+  text-align: start;
+  padding: 1.2rem;
+
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  z-index: 1;
+}
+
+.form-2 textarea {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #000000;
+  text-align: start;
+  padding: 1.2rem;
+  font-family: inherit;
+  border: none;
+  min-width: 39%;
+  min-height: 4rem;
+  background: rgb(185, 162, 240);
+  border-radius: 0.9375rem;
+  margin: 0.5rem;
+  max-height: 6.25rem;
+  height: 4rem;
+  width: 97%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.form-2 input[type="submit"] {
+  display: block;
+  margin: 0.5rem;
+  border: none;
+  cursor: pointer;
+
+  padding: 0.625rem;
+
+  transition: 0.3s ease all;
+
+  min-width: 8.9375rem;
+  height: 3.9663rem;
+text-align:center;
+  background: #3604ab;
+  box-shadow: 0px 0.25rem 0.25rem rgb(0 0 0 / 25%);
+  border-radius: 0.9375rem;
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 2.0625rem;
+  color: #ffff;
+}
+
+.Ct-container-text {
+  font-weight: 700;
+  font-size: 3.125rem;
+  color: rgba(0, 0, 0, 0.7);
+  margin-left: 1rem;
+}

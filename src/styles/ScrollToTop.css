@@ -1,0 +1,18 @@
+.Scroll:hover{
+    color: #f23d3da6;
+}
+
+.Scroll{
+  
+    font-size: 3rem;
+    color: var(--strong-pink);
+    
+}
+
+.scroll-container{
+    position: fixed;
+    right: 1rem;
+    bottom: 1.125rem;
+    cursor: pointer;
+    z-index: 1;
+}
