@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { BrowserRouter as Router, Routes, Route, Link, BrowserRouter } from "react-router-dom";
+import ReactGA from 'react-ga';
 
 import "./App.css";
 import NavBar from "./components/NavBar";
@@ -13,6 +14,16 @@ import Whatsapp from "./components/Whatsapp";
 import ScrollToTop from "./components/ScrollToTop"
 
 function App() {
+
+useEffect(() => {
+  ReactGA.initialize('UA-157340916-1');
+
+  ReactGA.pageview(window.location.pathname + window.location.search);
+
+
+}, [third])
+
+
   return (
     <BrowserRouter>
     
