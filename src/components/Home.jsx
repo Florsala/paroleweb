@@ -5,7 +5,6 @@ import lineHome from "../assets/Line-home.svg";
 import { HashLink as Link } from "react-router-hash-link";
 
 import { FiChevronsDown } from "react-icons/fi";
-import { GoChevronDown } from "react-icons/go";
 import Numbers from "../components/Numbers";
 
 import "../styles/circle-animation.css";

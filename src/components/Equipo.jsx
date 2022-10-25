@@ -58,16 +58,8 @@ const Equipo = () => {
       );
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
 
 
-    console.log("Formulario Enviado!");
-  };
-
-  const handleInputNombre = (e) => {
-    cambiarInputNombre(e.target.value);
-  };
 
   const handleInputCorreo = (e) => {
     cambiarInputCorreo(e.target.value);

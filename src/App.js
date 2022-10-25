@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-import { BrowserRouter as Router, Routes, Route, Link, BrowserRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import ReactGA from 'react-ga';
 
 import "./App.css";
@@ -21,7 +21,7 @@ useEffect(() => {
   ReactGA.pageview(window.location.pathname + window.location.search);
 
 
-}, [third])
+}, [])
 
 
   return (

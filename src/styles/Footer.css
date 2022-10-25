@@ -82,7 +82,7 @@ animation: bounce  1s infinite;
 
   display: flex;
   justify-content: flex-start;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .bottom-footer p {

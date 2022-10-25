@@ -1,8 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../styles/Contacto.css";
 
-import {TiInputChecked} from "react-icons/ti";
 
 
 import Mail from "../assets/mailbox.svg";
@@ -43,12 +42,7 @@ const Contacto = () => {
       );
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-
-    console.log("Formulario Enviado!");
-  };
+ 
 
   const handleInputNombre = (e) => {
     cambiarInputNombre(e.target.value);
