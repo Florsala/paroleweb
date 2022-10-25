@@ -1,12 +1,22 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../styles/Contacto.css";
+import ReactGA from 'react-ga';
 
 
 
 import Mail from "../assets/mailbox.svg";
 
 const Contacto = () => {
+
+  const handleClick = () =>{
+    ReactGA.event({
+      category: 'Button',
+      action: 'click botón contacto'
+    })
+    console.log('mensaje enviado');
+
+  }
 
 
   const [inputNombre, cambiarInputNombre] = useState("");
@@ -119,7 +129,7 @@ const Contacto = () => {
                 required
               />
 
-<input className="btnForm" type="submit" value="Enviar"          
+<input onClick={handleClick} className="btnForm" type="submit" value="Enviar"          
             />
 {/*             {sentForm && ( <div style={{display:'flex', color:'white', alignItems:'center'}}> 
              
