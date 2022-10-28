@@ -1,5 +1,6 @@
 import React from "react";
 import Whats from "../assets/media/whatsapp.svg"
+import TagManager from 'react-gtm-module';
 
 
 
