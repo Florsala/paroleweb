@@ -1,7 +1,21 @@
 import React from "react";
 import Whats from "../assets/media/whatsapp.svg"
 
+
+
+const tagManagerArgs = {
+  gtmId: 'GTM-5NHVXQX',
+  events: {
+      clickWsp: 'Whatsapp'
+  }
+}
+
 const Whatsapp = () => {
+
+  TagManager.initialize(tagManagerArgs)
+
+
+  
   return (
     <div className="FloatIcon-Wh">
       <a

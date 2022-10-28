@@ -11,7 +11,24 @@ import Equipo from "./components/Equipo";
 import Contacto from "./components/Contacto";
 import Footer from "./components/Footer";
 import Whatsapp from "./components/Whatsapp";
-import ScrollToTop from "./components/ScrollToTop"
+import ScrollToTop from "./components/ScrollToTop";
+import TagManager from 'react-gtm-module';
+
+
+const tagManagerArgs = {
+  gtmId: 'GTM-5NHVXQX',
+  dataLayer: {
+     event: 'pageview',
+     path: "/inicio/"
+  }
+}
+ 
+
+ 
+TagManager.initialize(tagManagerArgs)
+
+
+
 
 function App() {
 
