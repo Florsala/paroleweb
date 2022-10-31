@@ -3,17 +3,23 @@ import Whats from "../assets/media/whatsapp.svg"
 import TagManager from 'react-gtm-module';
 
 
-
-const tagManagerArgs = {
-  gtmId: 'GTM-5NHVXQX',
-  events: {
-      clickWsp: 'Whatsapp'
+/* const TagManagerArgs = {
+  dataLayer: {
+    page:'inicio',
+    event: 'whatsapp'
   }
-}
+} */
+
+
 
 const Whatsapp = () => {
 
-  TagManager.initialize(tagManagerArgs)
+  TagManager.dataLayer({
+    dataLayer: {
+      event: 'whatsapp',
+      path: 'inicio'
+    }
+  })
 
 
   
@@ -21,6 +27,7 @@ const Whatsapp = () => {
     <div className="FloatIcon-Wh">
       <a
       className="FloatIcon"
+      
         style={{ color: "#ffff" }}
         href="https://wa.me/542214955544"
         target={"blank"}
