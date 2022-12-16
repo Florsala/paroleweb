@@ -1,6 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
-import "../styles/Equipo.css";
+import React, { useEffect,/*  useRef, useState  */} from "react";
+/* import emailjs from "@emailjs/browser";
+ */import "../styles/Equipo.css";
 import dots from "../assets/dots.svg";
 
 import Dana from "../assets/Equipo/Dan2-2.png";
@@ -8,11 +8,11 @@ import Lorena from "../assets/Equipo/lore2.png";
 
 import Daiana from "../assets/Equipo/Dai2-1.png";
 
-import { BsPaperclip } from "react-icons/bs";
+/* import { BsPaperclip } from "react-icons/bs";
 
 import line7 from "../assets/Line7.svg";
 
-import {TiInputChecked} from "react-icons/ti";
+import {TiInputChecked} from "react-icons/ti"; */
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -25,7 +25,7 @@ const Equipo = () => {
     AOS.init({ duration: 2000 });
   }, []);
 
-  const [inputNombre, cambiarInputNombre] = useState("");
+/*   const [inputNombre, cambiarInputNombre] = useState("");
   const [inputCorreo, cambiarInputCorreo] = useState("");
   const [inputMsg, cambiarInputMsg] = useState("");
   const [sentForm, setSentForm] = useState(false);
@@ -70,7 +70,7 @@ const Equipo = () => {
   const handleInputMsg = (e) => {
     cambiarInputMsg(e.target.value);
   };
-
+ */
 
 
   return (
@@ -140,7 +140,7 @@ const Equipo = () => {
         </div>
       </div>
 
-      <div className="trab-container">
+{/*       <div className="trab-container">
         <img src={line7} alt="" className="line7" />
 
         <div className="trab-container-text">
@@ -199,7 +199,7 @@ const Equipo = () => {
             </div>
           </div>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };
