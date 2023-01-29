@@ -9,6 +9,7 @@ import SliderC from "./SliderC";
 import Servicios2 from "./Servicios2";
 
 import line4 from "../assets/Line4.svg"
+import Servicios3 from "./Servicios3";
 
 const Servicios = () => {
   const [click, setClick] = useState(false);
@@ -86,6 +87,7 @@ const Servicios = () => {
           </div>
 
           <Servicios2/>
+          <Servicios3/>
 
         </div>
       </section>
