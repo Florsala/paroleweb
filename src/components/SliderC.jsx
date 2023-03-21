@@ -19,6 +19,11 @@ import Alarz from "../assets/logos-emp/alarz.png";
  
 import Quilmes from "../assets/logos-emp/quilmes.png";
 
+import msa from "../assets/logos-emp/logo-msa.png";
+import quark from "../assets/logos-emp/quark.png";
+
+
+
 const SliderC = () => {
   const settings = {
     dots: true,
@@ -94,6 +99,21 @@ const SliderC = () => {
           <a href="https://alarzdeliciasarabes.com/" target={"blank"}>
             {" "}
             <img className="slide" src={Alarz} alt="Alarz" />
+          </a>
+        </div>
+
+        <div>
+          <a href="https://quarkacademy.com.ar/ " target={"blank"}>
+            {" "}
+            <img style={{width: "8rem", height: "8rem"
+          }} className="slide" src={quark} alt="quark" />
+          </a>
+        </div>
+
+        <div>
+          <a href="https://www.msa.com.ar/" target={"blank"}>
+            {" "}
+            <img className="slide" src={msa} alt="msa" />
           </a>
         </div>
       </Slider>

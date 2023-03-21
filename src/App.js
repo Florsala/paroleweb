@@ -51,7 +51,7 @@ useEffect(() => {
       <Servicios />
       <Equipo />
       <Contacto />
-      <Whatsapp/>
+     {/*  <Whatsapp/> */}
       <ScrollToTop/>
 
       <Footer />
