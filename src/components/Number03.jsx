@@ -70,7 +70,7 @@ const Number01 = () => {
         />
         {click && (
           <p className="number-section_text3">
-           Vamos más allá de los servicios tradicionales de contratación al ofrecer un análisis de mercado laboral y mapeo integral. Al asociarte con nosotros, obtienes una ventaja competitiva, asegurando que atraigas el talento adecuado y posiciones tu empresa para el éxito a largo plazo.
+Vamos más allá de los servicios tradicionales de contratación al ofrecer un análisis de mercado laboral y mapeo integral. Al asociarte con nosotros, obtienes una ventaja competitiva, asegurando el talento adecuado y un mejor posicionamiento de tu empresa.
 
           </p>
         )}
