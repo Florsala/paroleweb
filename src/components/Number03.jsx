@@ -1,9 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 
 
-import { HashLink as Link } from "react-router-hash-link";
 
-import { FiChevronsDown } from "react-icons/fi"; 
 import { GoChevronDown } from "react-icons/go";
 
 import AOS from 'aos';
@@ -60,8 +58,9 @@ const Number01 = () => {
       </div>
       <div className="number-section_container3" ref={mainRef}>
         <h5 className="number-section_title3">
-          Nos especializamos en el <br /> Sector IT, con servicios 100%
-          remotos{" "}
+        Conoce las tendencias y oportunidades en <br /> el mercado IT
+        {/*   Nos especializamos en el <br /> Sector IT, con servicios 100%
+          remotos{" "} */}
         </h5>
 
         <GoChevronDown
@@ -71,28 +70,17 @@ const Number01 = () => {
         />
         {click && (
           <p className="number-section_text3">
-            Trabajamos en modalidad online desde que Parole nació en 2017
-            porque entendimos la necesidad de conexión remota que ya había
-            en aquel momento. Decidimos seguir por esa línea convirtiéndonos
-            en expertos en el sector IT que fue el que más rápido se adaptó
-            a la tendencia y se subió a la ola de transformación digital.
-            Hoy desde la virtualidad llegamos a clientes de todo el mundo
-            con nuestros servicios de Recruiting y Soft Skills Training.
+            Vamos más allá de los servicios tradicionales de contratación al ofrecer un análisis 
+            de mercado laboral y mapeo integral. 
+            Al asociarte con nosotros, obtienes una ventaja competitiva en reclutamiento y gestión 
+            del talento, asegurando que el talento adecuado y posiciones tu empresa para el éxito 
+            a largo plazo.
+
           </p>
         )}
       </div>
     </div>
-    <div
-      className="btnpurple-container2"
-      style={{ display: "flex", justifyContent: "center" }}
-    >
-      <Link to="/#servicios" smooth>
-        <FiChevronsDown
-          className="btnpurple2"
-          style={{ position: "absolute" }}
-        />
-      </Link>
-    </div>
+    
     </div>
   )
 }

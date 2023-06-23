@@ -8,6 +8,8 @@ import 'aos/dist/aos.css';
 import Number01 from "./Number01";
 import Number02 from "./Number02";
 import Number03 from "./Number03";
+import Number04 from "./Number04";
+
 
 
 
@@ -46,7 +48,9 @@ useEffect(() => {
 
 
   return (
-    <div><section
+    <div>
+      
+      <section
     style={{
       backgroundImage: `url(${dots})`,
       marginTop: "6rem",
@@ -63,7 +67,13 @@ useEffect(() => {
     {/* tercera imagen */}
 
     <Number03/>
-  </section></div>
+
+     <Number04/> 
+
+
+  </section>
+  
+  </div>
   )
 }
 

@@ -78,6 +78,13 @@
   align-content: center;
 }
 
+.circle-icon-people{
+  font-size: 4rem;
+  color: white;
+  display: flex;
+  align-self: center;
+}
+
 .Serv-box-title {
   width: 19.3513rem;
   height: 6.4375rem;

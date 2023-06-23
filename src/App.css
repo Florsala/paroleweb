@@ -286,7 +286,13 @@ button:focus-visible {
   }
 
   .btnpurple-container2{
-    animation: bouncing  1.4s  infinite;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+   
+    animation: bouncing 1.4s infinite;
+    align-items: center;
    }
     
     @keyframes bouncing {

@@ -5,6 +5,9 @@ import person from "../assets/bxs-group.svg";
 import dots from "../assets/dots.svg";
 
 import {FiChevronDown} from "react-icons/fi";
+import {IoMdPeople} from "react-icons/io";
+
+
 import SliderC from "./SliderC";
 import Servicios2 from "./Servicios2";
 
@@ -49,8 +52,8 @@ const Servicios = () => {
         <div className="Serv-box-container">
           <div  className={click ? "Serv-box open" : "Serv-box"}>
             <div className="circle-purple">
-              <img style={{ width: "3.125rem" }} src={person} alt="person" />
-            </div>
+              <IoMdPeople className="circle-icon-people"/>
+         </div>
 
             <div className=" Serv-box-content" >
               <h5 className="Serv-box-title">
