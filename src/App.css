@@ -216,6 +216,7 @@ body {
   border: 2px solid #727171;
   border-radius: 0.625rem;
   margin-right: 2rem;
+  text-transform: capitalize;
 
   border-radius: 8px;
   border: 1px solid transparent;
@@ -226,7 +227,7 @@ body {
   cursor: pointer;
   transition: border-color 0.25s;
   flex-grow: 1;
-  width: 8.75rem;
+  width: auto;
   height: 2.875rem;
 }
 

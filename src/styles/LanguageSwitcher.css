@@ -1,0 +1,14 @@
+.selectLg{
+    border-radius: 8px;
+    height: 2rem;
+    background-color: #2e2e2e;
+    text-transform: uppercase;
+    width: 3rem;
+}
+
+.selectLi{
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
