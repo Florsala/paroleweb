@@ -108,6 +108,7 @@ body {
 .nav-item a {
   text-decoration: none;
   color: inherit;
+  text-transform: uppercase;
 }
 
 .nav-menu {

@@ -1,12 +1,22 @@
 import React from 'react'
+
+import { useTranslation } from 'react-i18next';
 import '../styles/LanguageSwitcher.css';
-import sp from '../assets/spain.svg';
+
 
 const LaguageSwitcher = () => {
+
+  const {i18n} = useTranslation();
+
+  const changeLanguage = (event) => {
+    const selectedLanguage = event.target.value;
+    i18n.changeLanguage(selectedLanguage);
+        }
+
   return (
     <div>
 
-<select className='selectLg'>
+<select className='selectLg' onChange={changeLanguage}>
     <option value="es">es </option>
     <option value="en">en</option>
 </select>

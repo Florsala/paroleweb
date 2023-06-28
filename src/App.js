@@ -10,9 +10,11 @@ import Servicios from "./components/Servicios";
 import Equipo from "./components/Equipo";
 import Contacto from "./components/Contacto";
 import Footer from "./components/Footer";
-import Whatsapp from "./components/Whatsapp";
+//import Whatsapp from "./components/Whatsapp";
 import ScrollToTop from "./components/ScrollToTop";
 import TagManager from 'react-gtm-module';
+import './config/i18next-config';
+
 
 
 const tagManagerArgs = {

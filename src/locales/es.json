@@ -1,0 +1,21 @@
+{
+  "menu.home": "Inicio",
+  "menu.services": "servicios",
+  "menu.about":"nosotros",
+  "menu.contact":"contacto",
+
+  "head.title":"Soluciones para la gestión del capital humano en empresas IT",
+  "head.subtitle": "Innovamos en la evolución de las organizaciones hacia el alto rendimiento, generando líderes conscientes y conectándote con las personas talentosas que ayudan a hacer crecer tu empresa.",
+
+"head.button": "conocenos",
+  "head.button2": "contactanos",
+
+  "head.box1": "Con nuestro servicio de IT Recruiting resolvemos las necesidades de staffing de tu compañía logrando el match perfecto que necesitás para seguir creciendo.",
+  "head.box2": "Con nuestros Trainings los colaboradores de tu empresa incorporan y elevan sus soft skills mejorando los vínculos personales y el desempeño profesional.",
+  "number.1.title": "Estamos enfocados en conectar con tus necesidades de staffing ",
+  "number.1.text":"Nuestro servicio de IT Recruiting comprende tareas de sourcing adaptadas a los ritmos rápidos del sector. Co-creamos junto con cada cliente un proceso de búsqueda apuntado a lograr una conexión significativa con los valores, intereses y objetivos de la organización.",
+  "number.2": "",
+  "number.3":"",
+  "number.4": ""
+  
+}

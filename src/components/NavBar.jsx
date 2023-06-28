@@ -6,9 +6,14 @@ import Elipse from "../assets/Ellipse.png";
 import Hamburger from "../assets/hamburger.svg";
 import Xbar from "../assets/xbar.svg";
 import { HashLink as Link } from "react-router-hash-link";
+import {useTranslation} from 'react-i18next';
+
 import LanguageSwitcher from "./LaguageSwitcher";
 
 const NavBar = () => {
+
+  const {t, i18n} = useTranslation();
+
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -47,7 +52,7 @@ const NavBar = () => {
           <li className="nav-item">
             <img className="ico" src={Elipse} alt="" />
             <Link to="/#inicio" smooth onClick={() => setClick(false)}>
-              INICIO
+            {t("menu.home")}
             </Link>
           </li>
           {/*           <span className="active-menu"></span>
@@ -55,8 +60,8 @@ const NavBar = () => {
           <li className="nav-item">
             <img className="ico" src={Elipse} alt="" />
             <Link to="/#servicios" smooth onClick={() => setClick(false)}>
-              {" "}
-              SERVICIOS
+              
+            {t("menu.services")}
             </Link>
           </li>
           <li className="nav-item">
