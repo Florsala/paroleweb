@@ -67,13 +67,13 @@ const NavBar = () => {
           <li className="nav-item">
             <img className="ico" src={Elipse} alt="" />
             <Link to="/#nosotros" smooth onClick={() => setClick(false)}>
-              NOSOTROS
+            {t("menu.about")}
             </Link>
           </li>
           <li className="nav-item">
             <img className="ico" src={Elipse} alt="" />
             <Link to="/#contacto" smooth onClick={() => setClick(false)}>
-              CONTACTO
+            {t("menu.contact")}
             </Link>
           </li>
           <li className="selectLi">

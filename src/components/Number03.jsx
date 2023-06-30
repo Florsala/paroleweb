@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
+import { useTranslation } from "react-i18next";
 
 
 import { GoChevronDown } from "react-icons/go";
@@ -8,6 +9,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Number01 = () => {
+  const { t, i18n } = useTranslation();
 
     useEffect(() => {
         AOS.init({duration: 2000});
@@ -58,9 +60,9 @@ const Number01 = () => {
       </div>
       <div className="number-section_container3" ref={mainRef}>
         <h5 className="number-section_title3">
-        Conoce las tendencias y oportunidades en <br /> el mercado IT
-        {/*   Nos especializamos en el <br /> Sector IT, con servicios 100%
-          remotos{" "} */}
+          {t("number.3.title")}
+{/*         Conoce las tendencias y oportunidades en <br /> el mercado IT
+ */}     
         </h5>
 
         <GoChevronDown
@@ -70,7 +72,7 @@ const Number01 = () => {
         />
         {click && (
           <p className="number-section_text3">
-Vamos más allá de los servicios tradicionales de contratación al ofrecer un análisis de mercado laboral y mapeo integral. Al asociarte con nosotros, obtienes una ventaja competitiva, asegurando el talento adecuado y un mejor posicionamiento de tu empresa.
+          {t("number.3.text")}
 
           </p>
         )}

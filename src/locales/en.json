@@ -4,26 +4,85 @@
     "menu.about":"about us",
     "menu.contact":"contact",
 
-    "head.title": "Human Capital Management Solutions for IT Companies",
+    "head.title.purple": "Human Capital",
+    "head.title": "Management Solutions for IT Companies",
+
   "head.subtitle": "Unlocking Potential, Igniting Growth: Your Partner in IT Human Capital. Welcome to Parole IT, where we specialize in revolutionizing IT companies through human capital management solutions. With a team of young and dynamic professionals, we are dedicated to helping organizations achieve peak performance by cultivating conscious leaders and connecting them with exceptional talent.",
   "head.button": "learn about us",
   "head.button2": "get in touch",
 
-  "head.box1": "Tailored IT Recruiting Solutions: Our IT Recruiting services are designed to seamlessly address your company's staffing needs, connecting you with precisely the right talent to fuel your ongoing growth and success.",
-  "head.box2": "Transformative Soft Skills Training: Through our comprehensive Trainings, we empower your employees to enhance their soft skills, fostering stronger personal connections and unlocking their full professional potential.",
+  "head.box1": "Our IT Recruiting services are designed to seamlessly address your company's staffing needs, connecting you with precisely the right talent to fuel your ongoing growth and success.",
+  "head.box2": "Through our comprehensive Trainings, we empower your employees to enhance their soft skills, fostering stronger personal connections and unlocking their full professional potential.",
 
-  "number.1.title": "Deep Understanding of Your Staffing Needs: ",
+  "number.1.title": "Deep Understanding of Your Staffing Needs ",
   "number.1.text":"Our expert team is committed to understanding your unique staffing requirements. We co-create customized sourcing strategies that align with your company's values, interests, and objectives, ensuring a meaningful connection.",
-  "number.2.title": "Effective Application of Soft Skills: ",
+  "number.2.title": "Effective Application of Soft Skills ",
   "number.2.text":"We deliver dynamic and interactive trainings to optimize relationships within your company and support your internal culture. By actively developing soft skills among your staff, you'll experience stronger interpersonal connections, reduced turnover rates, improved quality metrics, and maximize employee potential.",
-  "number.3.title":"Discover the Trends and Opportunities in the IT market: ",
+  "number.3.title":"Discover the Trends and Opportunities in the IT market ",
   "number.3.text":"We go beyond traditional staffing services by offering comprehensive market analysis, competitive intelligence, and talent mapping. By partnering with us, you gain a competitive edge in recruiting and talent management, ensuring you attract the right candidates and position your company for long-term success.",
-  "number.4.title": "Your Strategic Partner for Building High-Performing Teams. ",
+  "number.4.title": "Your Strategic Partner for Building High-Performing Teams ",
   "number.4.text":"Partner with Parole IT to unlock the country's potential for your business expansion in Argentina. With our strategic guidance, extensive network, and local expertise, we are committed to helping you build high-performing teams that drive exceptional results.",
 
   "services": "services",
-  "services.title.1": "IT Recruiting and Talent Management:",
-  "services.title.1.text":""
+  "services.title.1": "IT Recruiting and Talent Management",
+  "services.1.text.op1":"Strategic Planning.",
+  "services.1.text.op2":"Sourcing and Headhunting.",
+  "services.1.text.op3":"Interviews and Reports.",
+  "services.1.text.op4":"Employee Engagement and Retention.",
+  "services.1.text.op5":"Onboarding.",
+
+  "services.title.2": "Soft Skills Training for the IT Industry",
+  "services.2.text.op1":"Soft Skills for Professional Development and Talent Management",
+  "services.2.text.op2":"Design and Execution of Learning Solutions",
+  "services.2.text.op3":"Training and Continuous Staff Development",
+  "services.2.text.op4":"Accountable Leadership Development and Empowerment",
+  "services.2.text.op5":"Management Skills Development",
+
+  "services.title.3": "We build your IT team in Argentina",
+  "services.3.text.op1":"Strategic Talent Acquisition: We understand the specific needs and preferences of European and US companies. ",
+  "services.3.text.op2":" Market Insights and Expertise: With a deep understanding of the local market, we provide you with valuable market insights, trends, and data-driven analysis to support your decision-making process.  ",
+  "services.3.text.op3":" Seamless Recruitment Process: We handle the entire recruitment process on your behalf, from sourcing and headhunting to interviews and reports. ",
+  "services.3.text.op4":" Cultural Alignment and Integration: We recognize the importance of cultural fit for building successful international teams. ",
+
+  "companies.title": "Clients who trust us",
+
+  "team.title": "Our team ",
+
+  "dana.1":"Human Capital Development and Soft Skills Expert.  ",
+"dana.2":"IT Recruiter.",
+"dana.3":"Ontological and Organizational Coach.",
+"dana.4":"Image Consultant.",
+
+"lorena.1":"Human Capital Development and Soft Skills Specialist.",
+"lorena.2":"IT Recruiter.",
+"lorena.3":"Ontological and Organizational Coach.",
+"lorena.4":"Bioengineer",
+
+"daiana.1":"Bachelor's Degree in Business Management.",
+"daiana.2":"Advanced Technical Diploma in Human Resources.",
+"daiana.3":"Ontological Coach.",
+"daiana.4":"Currently advanced student in Master's in HR Management.",
+"daiana.5":"Master's in Team Management and MBA.",
+
+"contact.title":"Do you have any questions or concerns?",
+"contact.subtitle":"Contact us now!",
+
+"name":"Name",
+"email":"Email",
+"company":"Company",
+"company.website":"Company Website",
+"role":"Role",
+"info":"Additional information about your role/needs",
+"send": "Send",
+
+"contact":"contact",
+
+"rights":"Parole Consultora - All rights reserved."
+
+
+
+
+  
 
 
 }

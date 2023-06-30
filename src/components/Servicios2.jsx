@@ -3,11 +3,15 @@ import "../styles/Servicios.css";
 import read from "../assets/read.svg";
 
 
+import { useTranslation } from "react-i18next";
 
 import { FiChevronDown } from "react-icons/fi";
 
 
 const Servicios = () => {
+
+  const { t, i18n } = useTranslation();
+
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -32,24 +36,23 @@ const Servicios = () => {
 
           <div className="Serv-box-content2">
             <h5 className="Serv-box-title">
-              Soft Skills Trainings para la Industria IT
-            </h5>
+{t("services.title.2")}            </h5>
 
             <div className={click ? "Serv-box-text2 open" : "Serv-box-text2"}>
               <ul>
                 <li>
-                  Soft Skills para el desarrollo profesional y la gestión de
-                  talento.
+                  {t("services.2.text.op1")}
+
                 </li>
-                <li>Diseño y ejecución de soluciones de aprendizaje.</li>
+                <li>{t("services.2.text.op2")}</li>
               </ul>
 
               {click && (
                 <ul>
-                  <li>Entrenamiento y formación continua del personal.</li>
-                  <li>Desarrollo de liderazgo accountable y empowerment.</li>
-                  <li>Desarrollo de habilidades de management.</li>
-                  <li>Creación de equipos de alto rendimiento.</li>
+                  <li>{t("services.2.text.op3")}</li>
+                  <li>{t("services.2.text.op4")}</li>
+                  <li>{t("services.2.text.op5")}</li>
+                  <li>{t("services.2.text.op6")}</li>
                 </ul>
               )}
             </div>

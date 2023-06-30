@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import { GoChevronDown } from "react-icons/go";
 import { HashLink as Link } from "react-router-hash-link";
@@ -9,6 +10,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Number01 = () => {
+
+  const { t, i18n } = useTranslation();
+
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
@@ -49,19 +53,13 @@ const Number01 = () => {
 
         <div className="number-section_container2" ref={mainRef}>
           <h5 className="number-section_title2">
-          Somos la alianza estratégica para construir equipos de alto rendimiento
-          </h5>
+{t("number.4.title")}          </h5>
 
           <GoChevronDown className="chevron-down" onClick={handleClick} />
           {click && (
-            //cambiar texto
+           
             <p className="number-section_text2">
-             Asóciate con Parole IT para desbloquear el potencial de Argentina en la 
-             expansión de tu negocio. 
-             Con nuestra guía, amplia red y experiencia local, 
-             nos comprometemos a ayudarte a construir equipos de alto rendimiento que 
-             impulsen resultados excepcionales.
-
+            {t("number.4.text")}  
             </p>
           )}
         </div>

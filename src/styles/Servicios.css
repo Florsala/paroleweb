@@ -39,7 +39,8 @@
 }
 
 .Serv-box,
-.Serv-box2 {
+.Serv-box2,
+.Serv-box3 {
   width: 28rem;
   height: 26rem;
   z-index: 1;
@@ -54,6 +55,10 @@
 .Serv-box2.open {
   height: 35rem;
  /*  transition: height 0.2s;  */
+}
+
+.Serv-box3.open{
+  height:48rem;
 }
 
 .Serv-box-text,
@@ -86,7 +91,7 @@
 }
 
 .Serv-box-title {
-  width: 19.3513rem;
+  width: 20rem;
   height: 6.4375rem;
 
   font-weight: 600;

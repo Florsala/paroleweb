@@ -1,6 +1,10 @@
-import React, { useEffect,/*  useRef, useState  */} from "react";
+import React, { useEffect /*  useRef, useState  */ } from "react";
 /* import emailjs from "@emailjs/browser";
- */import "../styles/Equipo.css";
+
+ */
+import { useTranslation } from "react-i18next";
+
+import "../styles/Equipo.css";
 import dots from "../assets/dots.svg";
 
 import Dana from "../assets/Equipo/Dan2-2.png";
@@ -20,12 +24,14 @@ import "aos/dist/aos.css";
 import "../styles/Form.css";
 
 const Equipo = () => {
+  const { t, i18n } = useTranslation();
+
 
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
 
-/*   const [inputNombre, cambiarInputNombre] = useState("");
+  /*   const [inputNombre, cambiarInputNombre] = useState("");
   const [inputCorreo, cambiarInputCorreo] = useState("");
   const [inputMsg, cambiarInputMsg] = useState("");
   const [sentForm, setSentForm] = useState(false);
@@ -72,7 +78,6 @@ const Equipo = () => {
   };
  */
 
-
   return (
     <div
       id="nosotros"
@@ -84,7 +89,7 @@ const Equipo = () => {
       }}
     >
       <div className="Eq-container">
-        <h2 className="Serv-title">Nuestro equipo</h2>
+        <h2 className="Serv-title">{t("team.title")}</h2>
 
         <div className="Eq-circle-pink"></div>
         <div className="Eq-circle-dash"></div>
@@ -98,10 +103,10 @@ const Equipo = () => {
           <div className="box-text">
             <h5>Dana Licht</h5>
             <ul>
-              <li>Desarrollo del capital humano en soft skills.</li>
-              <li>Reclutadora IT.</li>
-              <li>Coach Ontológico y Organizacional.</li>
-              <li>Asesora de Imagen.</li>
+              <li>{t("dana.1")}</li>
+              <li>{t("dana.2")}</li>
+              <li>{t("dana.3")}</li>
+              <li>{t("dana.4")}</li>
             </ul>
           </div>
         </div>
@@ -114,10 +119,10 @@ const Equipo = () => {
           <div className="box-text">
             <h5>Lorena Nardi</h5>
             <ul>
-              <li>Desarrollo del capital humano en soft skills.</li>
-              <li>Reclutadora IT.</li>
-              <li>Coach Ontológico y Organizacional.</li>
-              <li>Bioingeniera.</li>
+              <li>{t("lorena.1")}</li>
+              <li>{t("lorena.2")}</li>
+              <li>{t("lorena.3")}</li>
+              <li>{t("lorena.4")}</li>
             </ul>
           </div>
         </div>
@@ -130,17 +135,17 @@ const Equipo = () => {
           <div className="box-text">
             <h5>Daiana Perez Mamakian</h5>
             <ul>
-              <li>Lic. en Gestión de Negocios.</li>
-              <li>Técnica superior de RRHH.</li>
-              <li>Coach Ontológico.</li>
-              <li>Estudiante avanzada de Máster en Dirección de RRHH.</li>
-              <li>Máster en Gestión de Equipos y MBA.</li>
+              <li>{t("daiana.1")}</li>
+              <li>{t("daiana.2")}</li>
+              <li>{t("daiana.3")}</li>
+              <li>{t("daiana.4")}</li>
+              <li>{t("daiana.5")}</li>
             </ul>
           </div>
         </div>
       </div>
 
-{/*       <div className="trab-container">
+      {/*       <div className="trab-container">
         <img src={line7} alt="" className="line7" />
 
         <div className="trab-container-text">

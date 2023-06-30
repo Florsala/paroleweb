@@ -1,4 +1,6 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+
 import "../styles/Footer.css";
 import Logo from "../assets/LogoFooter.svg";
 
@@ -11,6 +13,9 @@ import lineFooter from "../assets/lineFooter.svg"
 
 
 const Footer = () => {
+
+  const { t, i18n } = useTranslation();
+
   return (
     <>
     
@@ -35,7 +40,7 @@ const Footer = () => {
             <span>
               <img style={{width: "1.8rem"}} src={Envelope} alt="Mail" />
             </span>
-            Contacto
+            {t("contact")}
           </h4>
           <div style={{fontSize:"1.1rem",    marginTop: '0.4rem'}}>
              <p>contacto@parole.com.ar</p>
@@ -52,8 +57,7 @@ const Footer = () => {
       <div className="bottom-footer">
         <p style={{ color: "white", fontWeight: "400", fontFamily: "Nunito" }}>
           {" "}
-          &copy;{new Date().getFullYear()} Parole Consultora - Todos los
-          derechos reservados
+          &copy;{new Date().getFullYear()} {t("rights")}
         </p>
       </div>
     </div>

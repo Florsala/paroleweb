@@ -3,6 +3,7 @@ import LineTitle from "../assets/LineTitle.svg";
 import lineHome from "../assets/Line-home.svg";
 
 import { HashLink as Link } from "react-router-hash-link";
+import { useTranslation } from "react-i18next";
 
 import { FiChevronsDown } from "react-icons/fi";
 import Numbers from "../components/Numbers";
@@ -13,6 +14,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Home = () => {
+  const { t, i18n } = useTranslation();
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
@@ -21,36 +23,45 @@ const Home = () => {
     <div>
       <section id="inicio">
         <div className="TitleContainer">
-          <h1 className="Title">
-            Soluciones para la gestión del
-            <span id="Title-purple"> capital humano </span>
-            <br />
-            en empresas IT
-          </h1>
+          {/*  <h1 className="Title">
+           {t("head.title")}
+          </h1> */}
+
+          {i18n.language === "es" ? (
+            <h1 className="Title">
+              {t("head.title")}
+              <span id="Title-purple"> {t("head.title.purple")} </span>
+              <br />
+              {t("head.title.last")}
+            </h1>
+          ) : (
+            <h1 className="Title">
+              <span id="Title-purple"> {t("head.title.purple")} </span>
+              <br /> {t("head.title")}
+            </h1>
+          )}
+
           <div className="LineTitle">
             <img src={LineTitle} alt="linea" />
           </div>
         </div>
 
         <div className="TextContainer">
-          <p>
-            Innovamos en la evolución de las organizaciones hacia el alto
-            rendimiento, generando líderes conscientes y conectándote con las
-            personas talentosas que ayudan a hacer crecer tu empresa.
-          </p>
+          <p>{t("head.subtitle")}</p>
+          
         </div>
 
         <div className="btns-home">
           <div>
             <button className="btnHome-1">
               <Link to="/#nosotros" smooth>
-                Conocenos
+               {t("head.button")}
               </Link>
             </button>
 
             <button className="btnHome-2">
               <Link to="/#contacto" smooth>
-                Contactanos
+                {t("head.button2")}
               </Link>
             </button>
           </div>
@@ -61,7 +72,7 @@ const Home = () => {
           </Link>
         </div>
 
-        <div className="circleAnim" >
+        <div className="circleAnim">
           <div className="circle"></div>
           <div className="circle"></div>
           <div className="circle"></div>
@@ -79,11 +90,13 @@ const Home = () => {
 
         <div className="inicio2">
           <div data-aos="fade-right" className="Box-1">
-            <p>
+<p>{t("head.box1")}</p>
+
+           {/*  <p>
               Con nuestro servicio de <span>IT Recruiting </span> resolvemos las
               necesidades de staffing de tu compañía logrando el match perfecto
               que necesitás para seguir creciendo.
-            </p>
+            </p> */}
           </div>
 
           <div className="Box-img">
@@ -95,11 +108,12 @@ const Home = () => {
           </div>
 
           <div data-aos="fade-left" className="Box-2">
-            <p>
+            <p>{t( "head.box2")}</p>
+           {/*  <p>
               Con nuestros <span> Trainings</span> los colaboradores de tu
               empresa incorporan y elevan sus soft skills mejorando los vínculos
               personales y el desempeño profesional.
-            </p>
+            </p> */}
           </div>
         </div>
       </section>

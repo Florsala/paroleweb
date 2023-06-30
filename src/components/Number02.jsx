@@ -2,11 +2,13 @@ import React, { useEffect, useRef, useState } from "react";
 
 
 import { GoChevronDown } from "react-icons/go";
+import { useTranslation } from "react-i18next";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Number01 = () => {
+  const { t, i18n } = useTranslation();
 
     useEffect(() => {
         AOS.init({duration: 2000});
@@ -58,7 +60,7 @@ const Number01 = () => {
 
       <div className="number-section_container2"ref={mainRef} >
         <h5 className="number-section_title2">
-          Somos expertos en comunicación y aplicación de Soft Skills{" "}
+         {t("number.2.title")}
         </h5>
 
          <GoChevronDown
@@ -68,12 +70,8 @@ const Number01 = () => {
         />
         {click && (
           <p className="number-section_text2">
-            Trabajamos trainings dinámicos y participativos para optimizar
-            los vínculos dentro de las compañías y ofrecer soporte a su
-            cultura interna. Al trabajar el desarrollo de soft skills con su
-            staff, las empresas obtienen relaciones interpersonales fuertes,
-            reducción del índice de rotación, mejora del índice de calidad y
-            maximización del potencial de los colaboradores.
+                   {t("number.2.text")}
+
           </p>
         )} 
       </div>

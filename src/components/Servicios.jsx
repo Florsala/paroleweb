@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../styles/Servicios.css";
 import person from "../assets/bxs-group.svg";
+import { useTranslation } from "react-i18next";
 
 import dots from "../assets/dots.svg";
 
@@ -15,6 +16,9 @@ import line4 from "../assets/Line4.svg"
 import Servicios3 from "./Servicios3";
 
 const Servicios = () => {
+  const { t, i18n } = useTranslation();
+
+
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -43,7 +47,7 @@ const Servicios = () => {
         }}
       >
         <div className="Serv-container">
-          <h2 className="Serv-title">Servicios</h2>
+          <h2 className="Serv-title">{t("services")}</h2>
 
           <div className="Serv-circle-pink"></div>
           <div className="Serv-circle-dash"></div>
@@ -57,20 +61,20 @@ const Servicios = () => {
 
             <div className=" Serv-box-content" >
               <h5 className="Serv-box-title">
-                IT recruiting y Gestión del Talento{" "}
+              {t("services.title.1")}
               </h5>
               <div className={click ? "Serv-box-text open" : "Serv-box-text"}>
                 <ul>
-                  <li>Planificación Estratégica</li>
-                  <li>Sourcing y Headhunting.</li>
-                  <li>Entrevistas y elaboración de informes.</li>
+                  <li>{t("services.1.text.op1")}</li>
+                  <li>{t("services.1.text.op2")}</li>
+                  <li>{t("services.1.text.op3")}</li>
                 </ul>
                 
 
                   { click && (
                     <ul>
-                    <li>Engagement y fidelización del colaborador.</li>
-                  <li>Onboarding.</li>
+                    <li>{t("services.1.text.op4")}</li>
+                  <li>{t("services.1.text.op5")}</li>
                   </ul>
                   
                   ) }
@@ -98,7 +102,7 @@ const Servicios = () => {
       <section>
         <img src={line4} alt="" className="line4"/>
         <div className="Serv-container">
-          <h2 className="Serv-title">Quiénes confían en nosotros</h2>
+          <h2 className="Serv-title">{t("companies.title")}</h2>
 
           <div className="Serv-circle-pink"></div>
         </div>

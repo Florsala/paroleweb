@@ -2,10 +2,13 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../styles/Contacto.css";
 import ReactGA from "react-ga";
+import { useTranslation } from "react-i18next";
 
 import Mail from "../assets/mailbox.svg";
 
 const Contacto = () => {
+  const { t, i18n } = useTranslation();
+
   const handleClick = () => {
     ReactGA.event({
       category: "Button",
@@ -78,7 +81,7 @@ const Contacto = () => {
   return (
     <div id="contacto">
       <div className="Ct-container">
-        <h2 className="Serv-title">¿Podemos ayudarte con algo más?</h2>
+        <h2 className="Serv-title">{t("contact.title")}</h2>
 
         <div className="Ct-circle-pink"></div>
       </div>
@@ -87,7 +90,7 @@ const Contacto = () => {
         <div className="Ct-container-2">
           <div className="Ct-container-text">
             <div className="Ct-container-head">
-              <h3>¡Contactanos!</h3>
+              <h3>{t("contact.subtitle")}</h3>
 
               <img
                 style={{
@@ -106,7 +109,7 @@ const Contacto = () => {
               <input
                 type="text"
                 name="nombre"
-                placeholder="Nombre"
+                placeholder={t("name")}
                 id="nombre"
                 value={inputNombre}
                 onChange={handleInputNombre}
@@ -116,20 +119,18 @@ const Contacto = () => {
               <input
                 type="text"
                 name="email"
-                placeholder="Email"
+                placeholder={t("email")}
                 id="email"
                 value={inputCorreo}
                 onChange={handleInputCorreo}
                 required
               />
-
-              
             </div>
-            <div  style={{ display: "flex", alignItems: "baseline" }}>
+            <div style={{ display: "flex", alignItems: "baseline" }}>
               <input
                 type="text"
                 name="empresa"
-                placeholder="Empresa"
+                placeholder={t("company")}
                 id="empresa"
                 value={inputEmpresa}
                 onChange={handleInputEmpresa}
@@ -139,7 +140,7 @@ const Contacto = () => {
               <input
                 type="text"
                 name="web"
-                placeholder="Web de la Empresa"
+                placeholder={t("company.website")}
                 id="web"
                 value={inputWeb}
                 onChange={handleInputWeb}
@@ -150,7 +151,7 @@ const Contacto = () => {
             <input
               type="text"
               name="rol"
-              placeholder="Rol de la persona"
+              placeholder={t("Role")}
               id="rol"
               value={inputRol}
               onChange={handleInputRol}
@@ -165,7 +166,7 @@ const Contacto = () => {
                 rows="1"
                 aria-required="true"
                 aria-invalid="false"
-                placeholder="Info adicional sobre rol/necesidad"
+                placeholder={t("info")}
                 value={inputMsg}
                 onChange={handleInputMsg}
               />
@@ -174,7 +175,7 @@ const Contacto = () => {
                 onClick={handleClick}
                 className="btnForm"
                 type="submit"
-                value="Enviar"
+                value={t("send")}
               />
               {/*             {sentForm && ( <div style={{display:'flex', color:'white', alignItems:'center'}}> 
              
