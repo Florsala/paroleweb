@@ -14,14 +14,14 @@ const LaguageSwitcher = () => {
         }
 
   return (
-    <div>
+    <>
 
 <select className='selectLg' onChange={changeLanguage}>
     <option value="es">es </option>
     <option value="en">en</option>
 </select>
 
-    </div>
+    </>
   )
 }
 
