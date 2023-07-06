@@ -76,11 +76,11 @@ const NavBar = () => {
             {t("menu.contact")}
             </Link>
           </li>
-          <li className="selectLi">
-            <LanguageSwitcher />
-          </li>
+         
         </ul>
-
+ <div className="selectLi">
+            <LanguageSwitcher />
+          </div>
         <div className="hamburger" ref={menuRef} onClick={handleClick}>
           {click ? (
             <img src={Xbar} alt="X" />

@@ -88,8 +88,8 @@ const Equipo = () => {
         /* height: "60rem", */
       }}
     >
-      <div className="Eq-container">
-        <h2 className="Serv-title">{t("team.title")}</h2>
+      <div style={{marginRight:"13rem"}} className="Eq-container">
+        <h2 style={{left:"37rem"}} className="Serv-title">{t("team.title")}</h2>
 
         <div className="Eq-circle-pink"></div>
         <div className="Eq-circle-dash"></div>

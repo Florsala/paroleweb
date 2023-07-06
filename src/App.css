@@ -113,9 +113,10 @@ body {
 
 .nav-menu {
   display: flex;
-  margin-right: 7rem;
+  margin-right: 2rem;
   justify-content: flex-end;
   font-size: 1.125rem;
+  flex-grow: 2;
 }
 .nav-menu li {
   list-style: none;
@@ -148,8 +149,8 @@ body {
 /* Title Seccion 1 */
 
 #inicio {
-  margin-bottom: 8rem;
-  z-index: 2;
+/*   margin-bottom: 8rem;
+ */  z-index: 2;
 }
 
 .TitleContainer {
@@ -189,7 +190,7 @@ body {
 
 .TextContainer {
   position: absolute;
-  width: 34.875rem;
+  width: 36.5rem;
   margin-left: 5rem;
 }
 
@@ -202,8 +203,8 @@ body {
 }
 
 .btns-home {
-  margin-top: 11.875rem;
-  margin-left: 5rem;
+  margin-top: 1rem;
+/*  margin-left: 5rem; */ 
   display: flex;
   align-items: center;
   width: 43.75rem;
@@ -275,6 +276,11 @@ button:focus-visible {
 } */
 
 .btnpurple-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   animation: bouncing  1.4s  infinite;
  }
   
@@ -764,8 +770,8 @@ button:focus-visible {
     z-index: 2;
     display: flex;
     justify-content: flex-end;
-    width: 100%;
-  }
+/*     width: 100%;
+ */  }
 
   .hamburger img {
     z-index: 2;

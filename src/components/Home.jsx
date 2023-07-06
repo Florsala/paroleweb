@@ -48,10 +48,8 @@ const Home = () => {
 
         <div className="TextContainer">
           <p>{t("head.subtitle")}</p>
-          
-        </div>
 
-        <div className="btns-home">
+     <div className="btns-home">
           <div>
             <button className="btnHome-1">
               <Link to="/#nosotros" smooth>
@@ -66,6 +64,11 @@ const Home = () => {
             </button>
           </div>
         </div>
+
+          
+        </div>
+
+   
         <div className="btnpurple-container">
           <Link to="/#inicio-2p" smooth>
             <FiChevronsDown className="btnpurple" />
