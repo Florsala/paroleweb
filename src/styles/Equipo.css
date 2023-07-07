@@ -1,6 +1,5 @@
-.Eq-container {
+.Eq-container {   
   position: relative;
-
   height: 9.5rem;
   margin-right: 14rem;
   display: flex;
@@ -19,7 +18,7 @@
 }
 
 .Eq-circle-pink {
-  position: absolute;
+  position: relative;
   width: 5rem;
   height: 5rem;
   background: var(--pale-pink);

@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
@@ -15,14 +14,15 @@ import Continental from "../assets/logos-emp/continental2.png";
 import Doppler from "../assets/logos-emp/doppler.png";
 import Making from "../assets/logos-emp/making2.svg";
 import Alarz from "../assets/logos-emp/alarz.png";
- import Tasa from "../assets/logos-emp/logo-tasa.jpg";
- 
+import Tasa from "../assets/logos-emp/logo-tasa.jpg";
+
 import Quilmes from "../assets/logos-emp/quilmes.png";
 
 import msa from "../assets/logos-emp/logo-msa.png";
 import quark from "../assets/logos-emp/quark.png";
 
-
+import sequenex from "../assets/logos-emp/sequenex.jpg";
+import prisma from "../assets/logos-emp/prisma.svg";
 
 const SliderC = () => {
   const settings = {
@@ -77,7 +77,7 @@ const SliderC = () => {
             {" "}
             <img className="slide" src={Tasa} alt="Tasa" />
           </a>
-        </div> 
+        </div>
 
         <div>
           <a href="https://www.continental.net.ar/" target={"blank"}>
@@ -105,8 +105,12 @@ const SliderC = () => {
         <div>
           <a href="https://quarkacademy.com.ar/ " target={"blank"}>
             {" "}
-            <img style={{width: "8rem", height: "8rem"
-          }} className="slide" src={quark} alt="quark" />
+            <img
+              style={{ width: "8rem", height: "8rem" }}
+              className="slide"
+              src={quark}
+              alt="quark"
+            />
           </a>
         </div>
 
@@ -116,10 +120,26 @@ const SliderC = () => {
             <img className="slide" src={msa} alt="msa" />
           </a>
         </div>
+
+        <div>
+          <a
+            href="https://www.sequenex.com/
+"
+            target={"blank"}
+          >
+          
+            <img className="slide" src={sequenex} alt="sequenex" />
+          </a>
+        </div>
+
+        <div>
+          <a href="https://complejoprisma.com.ar/nuestros-apartamentos/" target={"blank"}>
+           
+            <img className="slide" src={prisma} alt="prisma" />
+          </a>
+        </div>
       </Slider>
     </div>
-
-   
   );
 };
 

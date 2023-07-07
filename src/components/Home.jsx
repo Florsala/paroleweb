@@ -31,13 +31,12 @@ const Home = () => {
             <h1 className="Title">
               {t("head.title")}
               <span id="Title-purple"> {t("head.title.purple")} </span>
-              <br />
-              {t("head.title.last")}
+             
             </h1>
           ) : (
             <h1 className="Title">
               <span id="Title-purple"> {t("head.title.purple")} </span>
-              <br /> {t("head.title")}
+            {t("head.title")}
             </h1>
           )}
 
@@ -50,14 +49,14 @@ const Home = () => {
           <p>{t("head.subtitle")}</p>
 
      <div className="btns-home">
-          <div>
+          <div style={{    position: "relative",zIndex: "2"}}>
             <button className="btnHome-1">
               <Link to="/#nosotros" smooth>
                {t("head.button")}
               </Link>
             </button>
 
-            <button className="btnHome-2">
+            <button style={{background:"#F44336"}} className="btnHome-2">
               <Link to="/#contacto" smooth>
                 {t("head.button2")}
               </Link>
@@ -86,7 +85,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section id="inicio-2p">
+      <section style={{marginTop:"-10rem"}} id="inicio-2p">
         <div>
           <img className="lineHome" src={lineHome} alt="linea" />
         </div>

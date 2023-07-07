@@ -85,13 +85,26 @@ const Equipo = () => {
         backgroundImage: `url(${dots})`,
 
         backgroundRepeat: "repeat",
-        /* height: "60rem", */
       }}
     >
-      <div style={{marginRight:"13rem"}} className="Eq-container">
-        <h2 style={{left:"37rem"}} className="Serv-title">{t("team.title")}</h2>
+      <div  className="Eq-container">
 
+        
+        {i18n.language === "es" ? (
+            <h2 className="Serv-title">
+            {t("team.title")}
+            </h2>
+          ) : (
+            <h2 style={{right:"11rem"}} className="Serv-title">
+            {t("team.title")}
+            </h2>
+          )} 
+
+{/*           <h2 className="Serv-title">{t("team.title")}</h2>
+ */}
         <div className="Eq-circle-pink"></div>
+      
+        
         <div className="Eq-circle-dash"></div>
       </div>
       <div className="Eq-container-p">

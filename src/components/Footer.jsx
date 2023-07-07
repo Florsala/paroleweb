@@ -44,11 +44,11 @@ const Footer = () => {
           </h4>
           <div style={{fontSize:"1.1rem",    marginTop: '0.4rem'}}>
              <p>contacto@parole.com.ar</p>
-          <p>Tel: +542214955544</p>
+          <p>Tel: +54 221 4955544</p>
           <p>Tel: +54 261 6688109</p>
           </div>
           <div style={{fontSize:"1.2rem", marginTop:'1rem'}}>
-            <p>La Plata - Buenos Aires - Argentina</p>
+            <p>Argentina</p>
           </div>
          
         </div>

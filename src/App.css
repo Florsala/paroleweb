@@ -156,7 +156,7 @@ body {
 .TitleContainer {
   width: 46rem;
   margin-left: 4.375rem;
-  margin-top: 5rem;
+  margin-top: 7rem;
   position: relative;
 }
 
@@ -180,8 +180,8 @@ body {
 .LineTitle {
   position: absolute;
 
-  left: 9.0625rem;
-  top: 7.75rem;
+  left: 3rem;
+  top: 3.75rem;
 }
 
 .LineTitle img{
@@ -203,7 +203,7 @@ body {
 }
 
 .btns-home {
-  margin-top: 1rem;
+  margin-top: 2rem;
 /*  margin-left: 5rem; */ 
   display: flex;
   align-items: center;
@@ -214,7 +214,7 @@ body {
 .btnHome-2 {
   left: 6.5rem;
   top: 39.4375rem;
-  background: var(--strong-pink);
+  background: var(--purple-color);
   border: 2px solid #727171;
   border-radius: 0.625rem;
   margin-right: 2rem;
@@ -238,11 +238,17 @@ body {
   text-decoration: none;
   color: #fff;
 }
-.btnHome-1:hover,
-.btnHome-2:hover {
+.btnHome-1:hover{
   background: var(--light-pink);
   border: 1px solid #5f3dd99c;
   filter: drop-shadow(0 0 0.5em #f07575);
+  transition: filter 0.25s;
+}
+
+.btnHome-2:hover {
+  background: #3a07f2;
+  border: 1px solid #5f3dd99c;
+  filter: drop-shadow(0 0 0.4em #3a07f2);
   transition: filter 0.25s;
 }
 
@@ -276,7 +282,7 @@ button:focus-visible {
 } */
 
 .btnpurple-container{
-  height: 100vh;
+  height: 35rem;
   display: flex;
   justify-content: center;
   align-items: center;
