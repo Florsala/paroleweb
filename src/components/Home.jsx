@@ -85,7 +85,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section style={{marginTop:"-10rem"}} id="inicio-2p">
+      <section style={{marginTop:"8rem"}} id="inicio-2p">
         <div>
           <img className="lineHome" src={lineHome} alt="linea" />
         </div>
