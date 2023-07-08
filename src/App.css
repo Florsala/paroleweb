@@ -853,9 +853,9 @@ button:focus-visible {
     margin-left: 2rem;
   }
 
-  .btns-home {
+ /*  .btns-home {
     margin-left: 2rem;
-  }
+  } */
 
   .inicio2 {
     display: grid;
