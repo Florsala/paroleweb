@@ -12,7 +12,7 @@ import LanguageSwitcher from "./LaguageSwitcher";
 
 const NavBar = () => {
 
-  const {t, i18n} = useTranslation();
+  const {t} = useTranslation();
 
   const [click, setClick] = useState(false);
 

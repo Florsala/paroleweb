@@ -10,7 +10,7 @@ import { FiChevronDown } from "react-icons/fi";
 
 const Servicios = () => {
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const [click, setClick] = useState(false);
 

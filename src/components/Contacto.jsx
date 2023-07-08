@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 import Mail from "../assets/mailbox.svg";
 
 const Contacto = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const handleClick = () => {
     ReactGA.event({

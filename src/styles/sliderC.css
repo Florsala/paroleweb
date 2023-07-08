@@ -33,32 +33,12 @@
     overflow: hidden;
 }
 
-/* .slide-track{
-    display: flex;
-    width: 60%;
-    animation: scroll 60s linear infinite;
-   
-}
 
-.slide-track:hover{
-    animation-play-state: paused;
-}
-
-@keyframes scroll {
-    0%{
-        transform: translate(0);
-    
-    }
-    100% {
-        transform: translate(calc( -250px * 9));
-    }
-} */
 
 .slide{
     align-items: center;
     padding: 0.9375rem;
-   /*  height: 10rem;
-    width: 10rem; */
+   
     display: flex;
     perspective: 6.25rem;
 

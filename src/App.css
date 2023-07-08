@@ -21,7 +21,7 @@ body {
   margin: 0 auto;
   padding: 2rem;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
 
   font-weight: 400;
   background: #fff;
@@ -50,10 +50,10 @@ body {
 
 @keyframes logo-spin {
   from {
-    transform: translateX(0px);
+    transform: translateX(0rem);
   }
   to {
-    transform: translate(160px, 90px);
+    transform: translate(10rem, 5.625rem);
   }
 }
 
@@ -165,7 +165,7 @@ body {
   line-height: 4.6875rem;
   font-weight: 800;
   font-size: 3.125rem;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 }
 
 #Title-purple {
@@ -198,7 +198,7 @@ body {
   font-family: "Nunito", sans-serif;
   font-size: 1.375rem;
   line-height: 2.1875rem;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
   margin-top: 1.5625rem;
 }
 
@@ -215,13 +215,13 @@ body {
   left: 6.5rem;
   top: 39.4375rem;
   background: var(--purple-color);
-  border: 2px solid #727171;
+  border: 0.125rem solid #727171;
   border-radius: 0.625rem;
   margin-right: 2rem;
   text-transform: capitalize;
 
-  border-radius: 8px;
-  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  border: 0.0625rem solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1rem;
   font-weight: 500;
@@ -240,21 +240,21 @@ body {
 }
 .btnHome-1:hover{
   background: var(--light-pink);
-  border: 1px solid #5f3dd99c;
+  border: 0.0625rem solid #5f3dd99c;
   filter: drop-shadow(0 0 0.5em #f07575);
   transition: filter 0.25s;
 }
 
 .btnHome-2:hover {
   background: #3a07f2;
-  border: 1px solid #5f3dd99c;
+  border: 0.0625rem solid #5f3dd99c;
   filter: drop-shadow(0 0 0.4em #3a07f2);
   transition: filter 0.25s;
 }
 
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: 0.25rem auto -webkit-focus-ring-color;
 }
 
 /* BTN seccion 1 */
@@ -269,8 +269,8 @@ button:focus-visible {
   border-radius: 50%;
   padding: 0.25rem;
   color: whitesmoke;
-  border: solid 2px hsl(250deg 99% 34%);
-  transform: translate(0px, -2.125rem);
+  border: solid 0.125rem hsl(250deg 99% 34%);
+  transform: translate(0rem, -2.125rem);
 
 }
 
@@ -282,7 +282,8 @@ button:focus-visible {
 } */
 
 .btnpurple-container{
-  height: 35rem;
+  height: 10rem;
+  margin-top: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -314,7 +315,7 @@ button:focus-visible {
         transform: translateY(0);
       }
       50%{
-        transform: translateY(5px);
+        transform: translateY(0.3125rem);
       }
     }
 
@@ -345,7 +346,7 @@ button:focus-visible {
   height: 15rem;
 
   background: var(--lila-color);
-  box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0.125rem 0.25rem 0.25rem 0.125rem rgba(0, 0, 0, 0.25);
   border-radius: 1.5625rem;
   z-index: 1;
   grid-area: Box-1;
@@ -399,7 +400,7 @@ button:focus-visible {
 
   background: var(--lila-color);
 
-  box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0.125rem 0.25rem 0.25rem 0.125rem rgba(0, 0, 0, 0.25);
   border-radius: 1.5625rem;
 }
 
@@ -469,7 +470,7 @@ button:focus-visible {
 .number-bcg {
   width: 100%;
   height: 51.625rem;
-  left: 0px;
+  left: 0rem;
   top: 90.75rem;
 }
 
@@ -486,7 +487,7 @@ button:focus-visible {
   outline-offset: 0.3125rem;
 }
 .number {
-  transform: translate(2px, -98px);
+  transform: translate(0.125rem, -6.125rem);
   grid-area: number;
 }
 
@@ -543,7 +544,7 @@ button:focus-visible {
   font-size: 1.25rem;
   line-height: 2.1875rem;
   text-align: justify;
-  letter-spacing: 1.1px;
+  letter-spacing: 0.0688rem;
   color: #000000;
   animation: slideText 4s;
 }
@@ -588,7 +589,7 @@ button:focus-visible {
 .number2 {
   grid-area: number2;
 
-  transform: translate(-71px, -6.75rem);
+  transform: translate(-4.4375rem, -6.75rem);
 }
 .number-section_container2 {
   width: 32rem;
@@ -616,7 +617,7 @@ button:focus-visible {
   line-height: 2.1875rem;
   color: #000000;
   text-align: justify;
-  letter-spacing: 1.1px;
+  letter-spacing: 0.0688rem;
   animation: slideText 4s;
 }
 
@@ -660,14 +661,14 @@ button:focus-visible {
   font-size: 1.25rem;
   line-height: 2.1875rem;
   text-align: justify;
-  letter-spacing: 1.1px;
+  letter-spacing: 0.0688rem;
   color: #000000;
   animation: slideText 4s;
 }
 
 .chevron-down3 {
   width: 3.9375rem;
-  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0.125rem 0.125rem 0.125rem rgba(0, 0, 0, 0.25));
 }
 .number3 {
   grid-area: number3;
@@ -693,7 +694,7 @@ button:focus-visible {
   border-radius: 50%;
   padding: 0.25rem;
   color: whitesmoke;
-  border: solid 2px hsl(250deg 99% 34%);
+  border: solid 0.125rem hsl(250deg 99% 34%);
 
 }
 
@@ -734,7 +735,7 @@ button:focus-visible {
   width: 4.625rem;
   height: 4.625rem;
   border-radius: 50%;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25));
 }
 
 @media screen and (max-width: 1170px) {
@@ -800,7 +801,7 @@ button:focus-visible {
     font-size: 2rem;
     color: whitesmoke;
     font-weight: 600;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
   }
 
   .nav-menu.active {
@@ -879,14 +880,14 @@ button:focus-visible {
 
 
   .number {
-    transform: translate(22px, -61px);
+    transform: translate(1.375rem, -7.8rem);
   }
   .number2 {
-    transform: translate(-77px, -6.75rem);
+    transform: translate(-4.8125rem, -6.75rem);
   }
 
   .number3 {
-    transform: translate(18px, -8.75rem);
+    transform: translate(1.125rem, -8.75rem);
   }
 
   .number-section_container {

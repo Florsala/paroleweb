@@ -53,7 +53,7 @@ useEffect(() => {
       <section
     style={{
       backgroundImage: `url(${dots})`,
-      marginTop: "6rem",
+      marginTop: "8rem",
       backgroundRepeat: "repeat",
       marginBottom: "6rem",
     }}

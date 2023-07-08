@@ -4,12 +4,12 @@
     background-color: #2e2e2e;
     text-transform: uppercase;
     width: auto;
+    color: #ffff;
   
 }
 
 .selectLi{
-/*     width: 5rem;
- */    display: flex;
+   display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 1rem;

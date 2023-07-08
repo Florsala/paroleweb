@@ -14,7 +14,7 @@ import lineFooter from "../assets/lineFooter.svg"
 
 const Footer = () => {
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>

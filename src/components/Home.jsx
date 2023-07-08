@@ -49,7 +49,7 @@ const Home = () => {
           <p>{t("head.subtitle")}</p>
 
      <div className="btns-home">
-          <div style={{    position: "relative",zIndex: "2"}}>
+          <div style={{    position: "relative",zIndex: "1"}}>
             <button className="btnHome-1">
               <Link to="/#nosotros" smooth>
                {t("head.button")}
