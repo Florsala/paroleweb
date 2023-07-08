@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/paroleweb/static/css/main.130cb274.css",
-    "main.js": "/paroleweb/static/js/main.0845fe45.js",
+    "main.css": "/paroleweb/static/css/main.012c4a99.css",
+    "main.js": "/paroleweb/static/js/main.e4c9fe15.js",
     "static/js/787.a9b1989a.chunk.js": "/paroleweb/static/js/787.a9b1989a.chunk.js",
     "static/media/dots.svg": "/paroleweb/static/media/dots.4cf481dd95f2558f2e55a3d4484a87cb.svg",
     "static/media/alarz.png": "/paroleweb/static/media/alarz.43f4e922662cd28fad82.png",
@@ -37,12 +37,12 @@
     "static/media/LineTitle.svg": "/paroleweb/static/media/LineTitle.b33c060823a7e63ed83110086b149c24.svg",
     "static/media/xbar.svg": "/paroleweb/static/media/xbar.ba73856d24c5618223c70ea097e6f232.svg",
     "static/media/hamburger.svg": "/paroleweb/static/media/hamburger.ebfd099449fedd308f45d916fc7a456b.svg",
-    "main.130cb274.css.map": "/paroleweb/static/css/main.130cb274.css.map",
-    "main.0845fe45.js.map": "/paroleweb/static/js/main.0845fe45.js.map",
+    "main.012c4a99.css.map": "/paroleweb/static/css/main.012c4a99.css.map",
+    "main.e4c9fe15.js.map": "/paroleweb/static/js/main.e4c9fe15.js.map",
     "787.a9b1989a.chunk.js.map": "/paroleweb/static/js/787.a9b1989a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.130cb274.css",
-    "static/js/main.0845fe45.js"
+    "static/css/main.012c4a99.css",
+    "static/js/main.e4c9fe15.js"
   ]
 }
