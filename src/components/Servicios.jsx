@@ -14,6 +14,7 @@ import Servicios2 from "./Servicios2";
 
 import line4 from "../assets/Line4.svg"
 import Servicios3 from "./Servicios3";
+import Servicios4 from "./Servicios4";
 
 const Servicios = () => {
   const { t, i18n } = useTranslation();
@@ -75,6 +76,7 @@ const Servicios = () => {
                     <ul>
                     <li>{t("services.1.text.op4")}</li>
                   <li>{t("services.1.text.op5")}</li>
+                  <li>{t("services.1.text.op6")}</li>
                   </ul>
                   
                   ) }
@@ -95,6 +97,8 @@ const Servicios = () => {
 
           <Servicios2/>
           <Servicios3/>
+          <Servicios4/>
+
 
         </div>
       </section>

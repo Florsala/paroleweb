@@ -7,17 +7,19 @@
     "head.title.purple": "IT Talent",
     "head.title": "Solutions",
 
-  "head.subtitle": "Welcome to Parole IT, where we specialize in revolutionizing IT companies through human capital management solutions. With a team of young and dynamic professionals, we are dedicated to helping organizations achieve peak performance by cultivating conscious leaders and connecting them with exceptional talent.",
+  "head.subtitle": "We specialize in revolutionizing IT companies through human capital management solutions. With a team of young and dynamic professionals, we are dedicated to helping organizations achieve peak performance by cultivating conscious leaders and connecting them with exceptional talent.",
+  "head.subtitle2": "Committed to excellence, diversity and equal opportunity, we are a company led by women.",
   "head.button": "learn about us",
   "head.button2": "get in touch",
 
   "head.box1": "Our IT Recruiting services are designed to seamlessly address your company's staffing needs, connecting you with precisely the right talent to fuel your ongoing growth and success.",
   "head.box2": "Through our comprehensive Trainings, we empower your employees to enhance their soft skills, fostering stronger personal connections and unlocking their full professional potential.",
 
-  "number.1.title": "Deep Understanding of Your Staffing Needs ",
+  "number.1.title": "We focus on solving your staffing needs",
   "number.1.text":"Our expert team is committed to understanding your unique staffing requirements. We co-create customized sourcing strategies that align with your company's values, interests, and objectives, ensuring a meaningful connection.",
-  "number.2.title": "Effective Application of Soft Skills ",
+  "number.2.title": "We are specialists in communication and soft skills application",
   "number.2.text":"We deliver dynamic and interactive trainings to optimize relationships within your company and support your internal culture. By actively developing soft skills among your staff, you'll experience stronger interpersonal connections, reduced turnover rates, improved quality metrics, and maximize employee potential.",
+  
   "number.3.title":"Discover the Trends and Opportunities in the IT market ",
   "number.3.text":"We go beyond traditional staffing services by offering comprehensive market analysis, competitive intelligence, and talent mapping. By partnering with us, you gain a competitive edge in recruiting and talent management, ensuring you attract the right candidates and position your company for long-term success.",
   "number.4.title": "Your Strategic Partner for Building High-Performing Teams ",
@@ -30,14 +32,16 @@
   "services.1.text.op3":"Interviews and Reports.",
   "services.1.text.op4":"Employee Engagement and Retention.",
   "services.1.text.op5":"Onboarding.",
+  "services.1.text.op6":"Diversity recruiting.",
+
 
   "services.title.2": "Soft Skills Training for the IT Industry",
-  "services.2.text.op1":"Soft Skills for Professional Development and Talent Management",
-  "services.2.text.op2":"Design and Execution of Learning Solutions",
-  "services.2.text.op3":"Training and Continuous Staff Development",
-  "services.2.text.op4":"Accountable Leadership Development and Empowerment",
-  "services.2.text.op5":"Management Skills Development",
-  "services.2.text.op6":" High performance teams development",
+  "services.2.text.op1":"Design and delivery of soft skills learning solutions for professional development and talent management.",
+  "services.2.text.op2":"Corporate training and development.",
+  "services.2.text.op3":"Training and Continuous Staff Development.",
+  "services.2.text.op4":"Accountable Leadership Development and Empowerment.",
+  "services.2.text.op5":"Workplace Diversity and Inclusion.",
+  "services.2.text.op6":"Productivity and well-being in the organization: Evolving Emotions.",
 
 
   "services.title.3": "We build your IT team in Argentina",
@@ -45,6 +49,16 @@
   "services.3.text.op2":" Market Insights and Expertise: With a deep understanding of the local market, we provide you with valuable market insights, trends, and data-driven analysis to support your decision-making process.  ",
   "services.3.text.op3":" Seamless Recruitment Process: We handle the entire recruitment process on your behalf, from sourcing and headhunting to interviews and reports. ",
   "services.3.text.op4":" Cultural Alignment and Integration: We recognize the importance of cultural fit for building successful international teams. ",
+
+  "services.title.4": "C-Level recruiting",
+  "services.4.text.op1":"We craft highly refined talent search strategies and offer specialized headhunting services for executive, C-level, and high-impact leaders roles.",
+  "services.4.text.op2":" Integrate strategic leadership aligned with your goals to drive innovation, growth, and long-term success.",
+  "services.4.text.op3":" Strategic Planning.",
+  "services.4.text.op4":" Sourcing y headhunting. ",
+  "services.4.text.op5":" Interviewing and reporting.",
+  "services.4.text.op6":"Loyalty and engagement to retain talent.",
+
+
 
   "companies.title": "Clients who trust us",
 

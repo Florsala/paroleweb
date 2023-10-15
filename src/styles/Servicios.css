@@ -41,7 +41,8 @@
 
 .Serv-box,
 .Serv-box2,
-.Serv-box3 {
+.Serv-box3,
+.Serv-box4 {
   width: 28rem;
   height: 26rem;
   z-index: 1;
@@ -67,7 +68,9 @@
   height: 4.5rem;
 }
 
-
+.Serv-box4.open{
+  height:40rem;
+}
 
 
 

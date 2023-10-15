@@ -31,12 +31,11 @@ const Home = () => {
             <h1 className="Title">
               {t("head.title")}
               <span id="Title-purple"> {t("head.title.purple")} </span>
-             
             </h1>
           ) : (
             <h1 className="Title">
               <span id="Title-purple"> {t("head.title.purple")} </span>
-            {t("head.title")}
+              {t("head.title")}
             </h1>
           )}
 
@@ -47,27 +46,25 @@ const Home = () => {
 
         <div className="TextContainer">
           <p>{t("head.subtitle")}</p>
+          <p>{t("head.subtitle2")}</p>
 
-     <div className="btns-home">
-          <div style={{    position: "relative",zIndex: "1"}}>
-            <button className="btnHome-1">
-              <Link to="/#nosotros" smooth>
-               {t("head.button")}
-              </Link>
-            </button>
+          <div className="btns-home">
+            <div style={{ position: "relative", zIndex: "1" }}>
+              <button className="btnHome-1">
+                <Link to="/#nosotros" smooth>
+                  {t("head.button")}
+                </Link>
+              </button>
 
-            <button style={{background:"#F44336"}} className="btnHome-2">
-              <Link to="/#contacto" smooth>
-                {t("head.button2")}
-              </Link>
-            </button>
+              <button style={{ background: "#F44336" }} className="btnHome-2">
+                <Link to="/#contacto" smooth>
+                  {t("head.button2")}
+                </Link>
+              </button>
+            </div>
           </div>
         </div>
 
-          
-        </div>
-
-   
         <div className="btnpurple-container">
           <Link to="/#inicio-2p" smooth>
             <FiChevronsDown className="btnpurple" />
@@ -85,20 +82,14 @@ const Home = () => {
         </div>
       </section>
 
-      <section style={{marginTop:"8rem"}} id="inicio-2p">
+      <section style={{ marginTop: "8rem" }} id="inicio-2p">
         <div>
           <img className="lineHome" src={lineHome} alt="linea" />
         </div>
 
         <div className="inicio2">
           <div data-aos="fade-right" className="Box-1">
-<p>{t("head.box1")}</p>
-
-           {/*  <p>
-              Con nuestro servicio de <span>IT Recruiting </span> resolvemos las
-              necesidades de staffing de tu compañía logrando el match perfecto
-              que necesitás para seguir creciendo.
-            </p> */}
+            <p>{t("head.box1")}</p>
           </div>
 
           <div className="Box-img">
@@ -110,12 +101,18 @@ const Home = () => {
           </div>
 
           <div data-aos="fade-left" className="Box-2">
-            <p>{t( "head.box2")}</p>
-           {/*  <p>
-              Con nuestros <span> Trainings</span> los colaboradores de tu
-              empresa incorporan y elevan sus soft skills mejorando los vínculos
-              personales y el desempeño profesional.
-            </p> */}
+{i18n.language === "en" ? (
+<p>{t("head.box2")}</p>
+) : (
+  <ul style={{listStyleType: "circle", padding: "1rem"}}>
+    <li>{t("head.box2.a")}</li>
+    <li>{t("head.box2.b")}</li>
+    <li>{t("head.box2.c")}</li>
+    <li>{t("head.box2.d")}</li>
+  </ul>
+)}
+
+            
           </div>
         </div>
       </section>

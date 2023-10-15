@@ -9,16 +9,23 @@
   
 
 
-  "head.subtitle": "Innovamos en la evolución de las organizaciones hacia el alto rendimiento, generando líderes conscientes y conectándote con las personas talentosas que ayudan a hacer crecer tu empresa.",
+  "head.subtitle": "Innovamos en la evolución de las organizaciones hacia el alto rendimiento, generando líderes conscientes y conectándote con las personas talentosas que ayudan a hacer crecer tu empresa. ",
+  "head.subtitle2":"Somos una empresa liderada por mujeres, comprometidas con la excelencia, la diversidad y la igualdad de oportunidades.",
 
 "head.button": "conocenos",
   "head.button2": "contactanos",
 
-  "head.box1": "Con nuestro servicio de IT Recruiting resolvemos las necesidades de staffing de tu compañía logrando el match perfecto para seguir creciendo.",
-  "head.box2": "Con nuestros Trainings las personas que forman parte de tu empresa incorporan y elevan sus soft skills mejorando los vínculos personales y el desempeño profesional.",
-  "number.1.title": "Estamos enfocados en conectar con tus necesidades de staffing ",
+  "head.box1": "La formación de nuestro staff en diferentes áreas permite que brindemos soluciones en reclutamiento y capacitación para ayudarte a construir un equipo sólido que impulse el éxito de tu organización en un mundo en constante cambio.",
+  "head.box2.a": "Ponemos la Ingeniería al servicio de la gestión de HR. ",
+  "head.box2.b":"Tenemos experiencia en Gestión Empresarial y HR. ",
+  "head.box2.c":"Somos especialistas en Comunicación, Liderazgo y Coaching.",
+  "head.box2.d":"Impulsamos y trabajamos los valores de Diversidad e Inclusión.",
+
+
+  "number.1.title": "Nos enfocamos en solucionar tus necesidades de staffing", 
   "number.1.text":"Nuestro servicio de IT Recruiting comprende tareas de sourcing adaptadas a los ritmos rápidos del sector. Co-creamos junto con cada cliente un proceso de búsqueda apuntado a lograr una conexión significativa con los valores, intereses y objetivos de la organización.",
-  "number.2.title": " Somos expertos en comunicación y aplicación de Soft Skills",
+  
+  "number.2.title": "Somos especialistas en comunicación y aplicación de soft skills",
   "number.2.text":"Trabajamos trainings dinámicos y participativos para optimizar los vínculos dentro de las compañías y ofrecer soporte a su cultura interna. Al trabajar el desarrollo de soft skills con su staff, las empresas obtienen relaciones interpersonales fuertes, reducción del índice de rotación, mejora del índice de calidad y maximización del potencial de sus equipos.",
   "number.3.title":"Conoce las tendencias y oportunidades en el mercado IT",
   "number.3.text":"Vamos más allá de los servicios tradicionales de contratación al ofrecer un análisis de mercado laboral y mapeo integral. Al asociarte con nosotros, obtienes una ventaja competitiva, asegurando el talento adecuado y un mejor posicionamiento de tu empresa.",
@@ -31,16 +38,17 @@
   "services.1.text.op1":"Planificación Estratégica.",
   "services.1.text.op2":"Sourcing y Headhunting.",
   "services.1.text.op3":"Entrevistas y elaboración de informes.",
-  "services.1.text.op4":"Engagement y fidelización del colaborador.",
+  "services.1.text.op4":"Nos enfocamos en la experiencia positiva de cada postulante logrando Fidelización y Engagement a futuro.",
   "services.1.text.op5":"Onboarding.",
+  "services.1.text.op6":"Reclutamiento de diversidad.",
 
   "services.title.2": "Soft Skills Trainings para la Industria IT",
-  "services.2.text.op1":" Soft Skills para el desarrollo profesional y la gestión de talento.",
-  "services.2.text.op2":"Diseño y ejecución de soluciones de aprendizaje.",
-  "services.2.text.op3":"Entrenamiento y formación continua de tus colaboradores.",
-  "services.2.text.op4":"Desarrollo de liderazgo accountable y empowerment.",
-  "services.2.text.op5":"Desarrollo de habilidades de management.",
-  "services.2.text.op6":"Creación de equipos de alto rendimiento.",
+  "services.2.text.op1":" Diseño y ejecución de soluciones de aprendizaje en Soft Skills para el desarrollo profesional y la gestión de talento.",
+  "services.2.text.op2":"Entrenamiento y formación continua en la empresa.",
+  "services.2.text.op3":"Desarrollo de liderazgo accountable y empowerment.",
+  "services.2.text.op4":"Desarrollo de habilidades management y de equipos de alto rendimiento.",
+  "services.2.text.op5":"Diversidad e Inclusión en el Ámbito Laboral.",
+  "services.2.text.op6":"Productividad y el Bienestar en la empresa: Emoción en Evolución.",
 
   
   "services.title.3": "Armamos tu equipo IT en Argentina",
@@ -49,6 +57,16 @@
   "services.3.text.op3": "Proceso de reclutamiento integral: Nos encargamos de todo el proceso, desde la búsqueda y headhunting  hasta las entrevistas e informes.",
   "services.3.text.op4":" Te brindamos información valiosa, tendencias y análisis basado en datos para respaldar tu proceso de toma de decisiones.",
   "services.3.text.op5":"Alineación e integración cultural: Reconocemos la importancia de la compatibilidad cultural para construir equipos internacionales exitosos. Nuestro equipo tiene experiencia en evaluar la compatibilidad cultural.",
+
+  "services.title.4": "Búsquedas Ejecutivas",
+  "services.4.text.op1":"Desarrollamos estrategias de búsqueda de talento altamente calificado y headhunting especializado para roles ejecutivos, C-Level y líderes de alto impacto.",
+  "services.4.text.op2":" Incorporación de liderazgo estratégico alineado a sus objetivos, fomentando la innovación, el crecimiento y el éxito a largo plazo.",
+ 
+  "services.4.text.op3": "Planificación estratégica. ",
+  "services.4.text.op4":" Sourcing y headhunting. ",
+  "services.4.text.op5":"Entrevistas y elaboración de informes. ",
+  "services.4.text.op6":"Fidelización y engagement del talento.",
+
 
 "companies.title": "Quiénes confían en nosotros",
 
@@ -67,8 +85,8 @@
 "daiana.1":"Lic. en Gestión de Negocios.",
 "daiana.2":"Técnica superior de RRHH.",
 "daiana.3":"Coach Ontológico.",
-"daiana.4":"Estudiante avanzada de Máster en Dirección de RRHH.",
-"daiana.5":"Máster en Gestión de Equipos y MBA.",
+"daiana.4":"Master en Dirección de RRHH - Master en Gestión de Equipo - ",
+"daiana.5":"Estudiante avanzada MBA.",
 
 "contact.title":"¿Podemos ayudarte con algo más?",
 "contact.subtitle":"¡Contactanos!",
