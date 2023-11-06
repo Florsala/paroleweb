@@ -62,23 +62,37 @@
 
   "companies.title": "Clients who trust us",
 
+  "seemore":"...read more",
+"seeless":"...read less",
+
+  "testimonio.title":"CMQ Team:",
+"testimonio.text":"The 2022 that we closed was a very good overall result and without a doubt, for us they are a reference team in recruitment. We trust their work and the rigor of their analysis.",
+
+"testimonio.2.title":"ALTEC Team:",
+"testimonio.2.text":"The course left me with several tools to take back to my work and personal (family) environment, many of which I have managed to put into practice, some almost unconsciously. ",
+"testimonio.2.2.text":"I take with me the enthusiasm that there is always something to offer in an organization, a team, a group, etc. and that even if the proposals for change seem 'crazy' and unattainable... you have to co-create actions to start them and then, step by step, you will begin to notice the results. And that all learning in soft skills first works on oneself and in daily activities, and then brings them into the workplace. Dana and Lore, thank you for your time!!!",
+
+"testimonio.3.title":"Student of 'Communication and Leadership in Organizations and HR' - CURZA -:",
+"testimonio.3.text":"This course has helped me a lot to see and go through my working life from a different point of view, it has opened paths that maybe I did not see that they were there.  ",
+"testimonio.3.2.text":"I have improved a lot my way of communicating, both at work and personally, to try to maintain an active listening with the people around me. And this makes me feel that I am much more open to change and to putting my grain of sand where it needs to be. At the same time, it allows me to dream of a different organization, to think about strategies for change, to want to get more involved and to empathize more with the people who make it up. I am very grateful to the teachers for their commitment and dedication to the classes, I want them to know that they have contributed a lot to my education and have influenced me a lot in this short time. I hope to have another experience like this soon!!",
+
+"testimonio.4.title":"Making Sense - María: ",
+"testimonio.4.text":"Thank you very much for the courses offered...useful and at least for me it gave me the opportunity to understand a little more the company's guidelines for this new process of continuous feedback.",
+
+"testimonio.5.title":"Colegio Pio X - Ayelén:",
+"testimonio.5.text":"It is a human group with a lot of availability and academic guarantee. They have helped us to raise new challenges and to implement them with great accompaniment and service. Thank you very much for these years that we have been working together!",
+
+
   "team.title": "Our team ",
 
-  "dana.1":"Human Capital Development and Soft Skills Expert.  ",
-"dana.2":"IT Recruiter.",
-"dana.3":"Ontological and Organizational Coach.",
-"dana.4":"Image Consultant.",
+"dana.1":"Working with Dan, we bring a professional touch to communication and boost your team's Soft Skills.",
 
-"lorena.1":"Human Capital Development and Soft Skills Specialist.",
-"lorena.2":"IT Recruiter.",
-"lorena.3":"Ontological and Organizational Coach.",
-"lorena.4":"Bioengineer",
 
-"daiana.1":"Bachelor's Degree in Business Management.",
-"daiana.2":"Advanced Technical Diploma in Human Resources.",
-"daiana.3":"Ontological Coach.",
-"daiana.4":"Currently advanced student in Master's in HR Management.",
-"daiana.5":"Master's in Team Management and MBA.",
+"lorena.1":"Partnering with Lore, we leverage Engineering to enhance HR.",
+
+
+"daiana.1":"Teaming up with Dai, we bring added experience in Business Management and HR.",
+
 
 "contact.title":"Do you have any questions or concerns?",
 "contact.subtitle":"Contact us now!",

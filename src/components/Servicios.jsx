@@ -4,11 +4,8 @@ import person from "../assets/bxs-group.svg";
 import { useTranslation } from "react-i18next";
 
 import dots from "../assets/dots.svg";
-
 import {FiChevronDown} from "react-icons/fi";
 import {IoMdPeople} from "react-icons/io";
-
-
 import SliderC from "./SliderC";
 import Servicios2 from "./Servicios2";
 
@@ -16,9 +13,11 @@ import line4 from "../assets/Line4.svg"
 import Servicios3 from "./Servicios3";
 import Servicios4 from "./Servicios4";
 
-const Servicios = () => {
-  const { t, i18n } = useTranslation();
 
+
+const Servicios = () => {
+
+  const { t, i18n } = useTranslation();
 
   const [click, setClick] = useState(false);
 

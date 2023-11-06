@@ -12,6 +12,8 @@ import Lorena from "../assets/Equipo/lore2.png";
 
 import Daiana from "../assets/Equipo/Dai2-1.png";
 
+import {IoLogoLinkedin} from "react-icons/io5";
+
 /* import { BsPaperclip } from "react-icons/bs";
 
 import line7 from "../assets/Line7.svg";
@@ -117,9 +119,8 @@ const Equipo = () => {
             <h5>Dana Licht</h5>
             <ul>
               <li>{t("dana.1")}</li>
-              <li>{t("dana.2")}</li>
-              <li>{t("dana.3")}</li>
-              <li>{t("dana.4")}</li>
+              
+              <a href="https://www.linkedin.com/in/dana-licht-b88b9a121/" target={'blank'}><IoLogoLinkedin className="linkLogo"/></a>
             </ul>
           </div>
         </div>
@@ -133,9 +134,7 @@ const Equipo = () => {
             <h5>Lorena Nardi</h5>
             <ul>
               <li>{t("lorena.1")}</li>
-              <li>{t("lorena.2")}</li>
-              <li>{t("lorena.3")}</li>
-              <li>{t("lorena.4")}</li>
+              <a href="https://www.linkedin.com/in/lorenanardi/" target={'blank'}><IoLogoLinkedin className="linkLogo"/></a>
             </ul>
           </div>
         </div>
@@ -149,10 +148,7 @@ const Equipo = () => {
             <h5>Daiana Perez Mamakian</h5>
             <ul>
               <li>{t("daiana.1")}</li>
-              <li>{t("daiana.2")}</li>
-              <li>{t("daiana.3")}</li>
-              <li>{t("daiana.4")}</li>
-              <li>{t("daiana.5")}</li>
+              <a href="https://www.linkedin.com/in/daiperezmamakian/" target={'blank'}><IoLogoLinkedin className="linkLogo"/></a>
             </ul>
           </div>
         </div>

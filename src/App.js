@@ -14,6 +14,7 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import TagManager from 'react-gtm-module';
 import './config/i18next-config';
+import Testimonios from "./components/Testimonios";
 
 
 
@@ -51,6 +52,7 @@ useEffect(() => {
 
       <Home />
       <Servicios />
+      <Testimonios/>
       <Equipo />
       <Contacto />
      {/*  <Whatsapp/> */}

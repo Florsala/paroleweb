@@ -1,4 +1,4 @@
-.Eq-container {   
+.Eq-container {
   position: relative;
   height: 9.5rem;
   margin-right: 14rem;
@@ -68,6 +68,8 @@
 .Eq-container-p-box ul {
   list-style: none;
   font-size: 0.97rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.0625rem;
 }
 
 .box-img {
@@ -88,7 +90,7 @@
 
 .box-text {
   height: 15.625rem;
-  width: 28.125rem;
+  width: 25rem;
 }
 
 /* seccion trabaja con nosotros */
@@ -107,11 +109,7 @@
   flex-flow: row wrap;
   justify-content: flex-start;
   padding: 2rem;
-
-  
 }
-
-
 
 .trab-container-text {
   width: 100%;
@@ -124,10 +122,15 @@
   color: #e7e6e9;
 }
 
-
-.line7{
-  position:absolute;
+.line7 {
+  position: absolute;
   width: 33.4375rem;
-    height: 33.4375rem;
-    transform: translate(-8.1875rem, 0.625rem);
+  height: 33.4375rem;
+  transform: translate(-8.1875rem, 0.625rem);
+}
+
+.linkLogo {
+  font-size: 2.1rem;
+  margin: 1rem;
+  color: #4f1dc5;
 }
