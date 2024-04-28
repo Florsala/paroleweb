@@ -67,8 +67,15 @@
   "services.4.text.op5":"Entrevistas y elaboración de informes. ",
   "services.4.text.op6":"Fidelización y engagement del talento.",
 
+  "services.title.5": "Consultoría Legal IT",
+  "services.5.text.op1":"Legal IT para startups y contractors. ",
+  "services.5.text.op2":"Asesoría y armado de modelos societarios, contratos, propiedad intelectual de software, marcas y procesos, copyright, derechos de autor y modelos de confidencialidad.",
+  "services.5.text.op3": "Negociación de contratos, cobros y finanzas. Asesoría sobre procedimientos de trabajo para el exterior.",
+  "services.5.text.op4":"Desarrollo de compliance; terminos y condiciones, políticas de privacidad y políticas de cookies y métricas. AML (anti money laundering).",
 
-"companies.title": "Quiénes confían en nosotros",
+
+
+"companies.title": "Quiénes confían en Parole IT",
 
 "seemore":"...ver más",
 "seeless":"...ver menos",
@@ -97,10 +104,8 @@
 "dana.3":"Coach Ontológico y Organizacional.",
 "dana.4":"Asesora de Imagen.",
 
-"lorena.1":"Con Lore Ponemos la Ingeniería al servicio de HR.",
-"lorena.2":"Reclutadora IT.",
-"lorena.3":"Coach Ontológico y Organizacional.",
-"lorena.4":"Bioingeniera.",
+"pablo.1":"Con Pablo te damos toda la asesoría legal y compliance que necesitás para proteger y desarrollar tu proyecto IT.",
+
 
 "daiana.1":"Con Dai sumamos  experiencia en Gestión de Empresas y RRHH.",
 "daiana.2":"Técnica superior de RRHH.",
@@ -120,6 +125,8 @@
 "send": "Enviar",
 
 "contact":"contacto",
+"terms":"Términos y condiciones",
+"privacy":"Política de privacidad",
 
 "rights":"Parole Consultora - Todos los derechos reservados."
 

@@ -101,6 +101,19 @@ animation: bounce  1s infinite;
   transform: translate(3.8125rem, -42.6875rem);
 }
 
+.footer-terms{
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+ 
+  
+}
+
+.terms{
+  text-decoration: none;
+  color: #343434;
+}
+
 
 @media only screen and (max-width: 599px) {
 

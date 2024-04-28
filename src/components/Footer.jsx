@@ -52,7 +52,22 @@ const Footer = () => {
           </div>
          
         </div>
+        
       </div>
+
+      <div className="footer-terms">
+
+        <a className="terms" href="" target={'blank'}><h5  >
+            {t("terms")}
+          </h5></a>
+          
+          <a className="terms" href="" target={'blank'}>
+          <h5>
+            {t("privacy")}
+          </h5></a>
+
+
+        </div>
 
       <div className="bottom-footer">
         <p style={{ color: "white", fontWeight: "400", fontFamily: "Nunito" }}>

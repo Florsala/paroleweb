@@ -23,6 +23,8 @@ import quark from "../assets/logos-emp/quark.png";
 
 import sequenex from "../assets/logos-emp/sequenex.jpg";
 import prisma from "../assets/logos-emp/prisma.svg";
+import gut from "../assets/logos-emp/lg.svg";
+
 
 const SliderC = () => {
   const settings = {
@@ -136,6 +138,13 @@ const SliderC = () => {
           <a href="https://complejoprisma.com.ar/nuestros-apartamentos/" target={"blank"}>
            
             <img className="slide" src={prisma} alt="prisma" />
+          </a>
+        </div>
+
+        <div>
+          <a href="https://www.gut.agency/" target={"blank"}>
+           
+            <img className="slide" src={gut} alt="gut" />
           </a>
         </div>
       </Slider>

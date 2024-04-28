@@ -8,7 +8,7 @@ import "../styles/Equipo.css";
 import dots from "../assets/dots.svg";
 
 import Dana from "../assets/Equipo/Dan2-2.png";
-import Lorena from "../assets/Equipo/lore2.png";
+import Pablo from "../assets/Equipo/Dan2-2.png";
 
 import Daiana from "../assets/Equipo/Dai2-1.png";
 
@@ -127,14 +127,14 @@ const Equipo = () => {
 
         <div className="Eq-container-p-box">
           <div className="box-img">
-            <img src={Lorena} alt="Lorena Nardi" />
+            <img src={Pablo} alt="Pablo Bichara" />
             <div className="drop"></div>
           </div>
           <div className="box-text">
-            <h5>Lorena Nardi</h5>
+            <h5>Pablo Bichara</h5>
             <ul>
-              <li>{t("lorena.1")}</li>
-              <a href="https://www.linkedin.com/in/lorenanardi/" target={'blank'}><IoLogoLinkedin className="linkLogo"/></a>
+              <li>{t("pablo.1")}</li>
+              <a href="https://www.linkedin.com/in/pablobichara/" target={'blank'}><IoLogoLinkedin className="linkLogo"/></a>
             </ul>
           </div>
         </div>

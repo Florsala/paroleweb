@@ -12,6 +12,7 @@ import Servicios2 from "./Servicios2";
 import line4 from "../assets/Line4.svg"
 import Servicios3 from "./Servicios3";
 import Servicios4 from "./Servicios4";
+import Servicios5 from "./Servicios5";
 
 
 
@@ -97,6 +98,8 @@ const Servicios = () => {
           <Servicios2/>
           <Servicios3/>
           <Servicios4/>
+          <Servicios5/>
+
 
 
         </div>

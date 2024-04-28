@@ -7,10 +7,14 @@
 }
 
 body {
+  background-color: #e6dbff;
+
   min-height: 100vh;
   scroll-behavior: smooth;
   overflow-x: hidden;
   width: 100%;
+  
+  
 }
 
 #root {
@@ -24,7 +28,7 @@ body {
   font-size: 1rem;
 
   font-weight: 400;
-  background: #fff;
+  background: #fdfdfd;
 
   color-scheme: light dark;
   color: rgba(30, 30, 30, 0.9);
