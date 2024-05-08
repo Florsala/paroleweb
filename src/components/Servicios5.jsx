@@ -23,7 +23,7 @@ const Servicios5 = () => {
 
   return (
     <>
-      <div className={click ? "Serv-box4 open" : "Serv-box2"}>
+     { i18n.language === "es" && (<div className={click ? "Serv-box4 open" : "Serv-box2"}>
         <div className="circle-purple">
           <IoDocumentTextSharp className="circle-icon-people" />
           {/*             <img style={{ width: "3.125rem" }} src={game} alt="read" />
@@ -63,7 +63,7 @@ const Servicios5 = () => {
             {!click && <FiChevronDown className="chevron-down_svs2 open" />}
           </div>
         </div>
-      </div>
+      </div>)}
     </>
   );
 };

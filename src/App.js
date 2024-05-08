@@ -19,7 +19,7 @@ import Testimonios from "./components/Testimonios";
 
 
 const tagManagerArgs = {
-  gtmId: 'GTM-5NHVXQX',
+  gtmId: 'GTM-52V8SKNL',
   dataLayer: {
      event: 'pageview',
      path: "/inicio/"

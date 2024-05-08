@@ -9,7 +9,11 @@ import Facebook from "../assets/media/facebook.svg";
 import Instagram from "../assets/media/instagram.svg";
 
 import Envelope from "../assets/envelope.svg";
-import lineFooter from "../assets/lineFooter.svg"
+import lineFooter from "../assets/lineFooter.svg";
+
+import Terminos from "../Downloads/Terminos.pdf";
+import Politicas from "../Downloads/Politicas.pdf";
+
 
 
 const Footer = () => {
@@ -57,11 +61,11 @@ const Footer = () => {
 
       <div className="footer-terms">
 
-        <a className="terms" href="" target={'blank'}><h5  >
+        <a className="terms" href={Terminos} target={'blank'} ><h5  >
             {t("terms")}
           </h5></a>
           
-          <a className="terms" href="" target={'blank'}>
+          <a className="terms" href={Politicas} target={'blank'}>
           <h5>
             {t("privacy")}
           </h5></a>

@@ -8,9 +8,9 @@ import "../styles/Equipo.css";
 import dots from "../assets/dots.svg";
 
 import Dana from "../assets/Equipo/Dan2-2.png";
-import Pablo from "../assets/Equipo/Dan2-2.png";
 
 import Daiana from "../assets/Equipo/Dai2-1.png";
+import pablo from "../assets/Equipo/pablo.jpeg";
 
 import {IoLogoLinkedin} from "react-icons/io5";
 
@@ -125,9 +125,9 @@ const Equipo = () => {
           </div>
         </div>
 
-        <div className="Eq-container-p-box">
+       { i18n.language === "es" && (<div className="Eq-container-p-box">
           <div className="box-img">
-            <img src={Pablo} alt="Pablo Bichara" />
+            <img src={pablo} alt="Pablo Bichara" />
             <div className="drop"></div>
           </div>
           <div className="box-text">
@@ -137,7 +137,7 @@ const Equipo = () => {
               <a href="https://www.linkedin.com/in/pablobichara/" target={'blank'}><IoLogoLinkedin className="linkLogo"/></a>
             </ul>
           </div>
-        </div>
+        </div>)}
 
         <div className="Eq-container-p-box">
           <div className="box-img">
