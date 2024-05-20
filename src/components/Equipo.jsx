@@ -10,7 +10,7 @@ import dots from "../assets/dots.svg";
 import Dana from "../assets/Equipo/Dan2-2.png";
 
 import Daiana from "../assets/Equipo/Dai2-1.png";
-import pablo from "../assets/Equipo/pablo.jpeg";
+import pablo from "../assets/Equipo/pablo.png";
 
 import {IoLogoLinkedin} from "react-icons/io5";
 
@@ -125,20 +125,6 @@ const Equipo = () => {
           </div>
         </div>
 
-       { i18n.language === "es" && (<div className="Eq-container-p-box">
-          <div className="box-img">
-            <img src={pablo} alt="Pablo Bichara" />
-            <div className="drop"></div>
-          </div>
-          <div className="box-text">
-            <h5>Pablo Bichara</h5>
-            <ul>
-              <li>{t("pablo.1")}</li>
-              <a href="https://www.linkedin.com/in/pablobichara/" target={'blank'}><IoLogoLinkedin className="linkLogo"/></a>
-            </ul>
-          </div>
-        </div>)}
-
         <div className="Eq-container-p-box">
           <div className="box-img">
             <img src={Daiana} alt="Daiana Perez" />
@@ -152,7 +138,25 @@ const Equipo = () => {
             </ul>
           </div>
         </div>
+
+        { i18n.language === "es" && (<div className="Eq-container-p-box">
+          <div className="box-img">
+            <img src={pablo} alt="Pablo Bichara" />
+            <div className="drop"></div>
+          </div>
+          <div className="box-text">
+            <h5>Pablo Bichara</h5>
+            <ul>
+              <li>{t("pablo.1")}</li>
+              <a href="https://www.linkedin.com/in/pablobichara/" target={'blank'}><IoLogoLinkedin className="linkLogo"/></a>
+            </ul>
+          </div>
+        </div>)}
       </div>
+
+       
+
+       
 
       {/*       <div className="trab-container">
         <img src={line7} alt="" className="line7" />

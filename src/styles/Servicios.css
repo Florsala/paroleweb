@@ -44,10 +44,10 @@
 .Serv-box3,
 .Serv-box4 {
   width: 28rem;
-  height: 26rem;
+  height: 28rem;
   z-index: 1;
   margin: 3rem;
-  background: rgba(255, 255, 255, 0.8);
+  background: #fffff0;
   box-shadow: 0px 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
   border-radius: 1.5625rem;
 /*   transition: all 2s;
@@ -65,7 +65,7 @@
 
 .Serv-box-text,
 .Serv-box-text2 {
-  height: 4.5rem;
+  height: 5rem;
 }
 
 .Serv-box4.open{
@@ -105,6 +105,17 @@
   color: #000000;
 }
 
+.Serv-box-title5 {
+  width: 20rem;
+  height: 6.4375rem;
+
+  font-weight: 600;
+  font-size: 1.625rem;
+  line-height: 2.4375rem;
+  letter-spacing: 0.1em;
+  color: #000000;
+margin-bottom: 2rem;
+}
 .Serv-box-content,
 .Serv-box-content2 {
   display: flex;

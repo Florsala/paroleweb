@@ -76,7 +76,6 @@ const Servicios = () => {
                     <ul>
                     <li>{t("services.1.text.op4")}</li>
                   <li>{t("services.1.text.op5")}</li>
-                  <li>{t("services.1.text.op6")}</li>
                   </ul>
                   
                   ) }

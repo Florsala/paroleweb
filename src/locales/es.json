@@ -1,7 +1,7 @@
 {
   "menu.home": "Inicio",
   "menu.services": "servicios",
-  "menu.about":"nosotros",
+  "menu.about":"nuestro equipo",
   "menu.contact":"contacto",
 
   "head.title":"Soluciones en ",
@@ -40,7 +40,6 @@
   "services.1.text.op3":"Entrevistas y elaboración de informes.",
   "services.1.text.op4":"Nos enfocamos en la experiencia positiva de cada postulante logrando Fidelización y Engagement a futuro.",
   "services.1.text.op5":"Onboarding.",
-  "services.1.text.op6":"Reclutamiento de diversidad.",
 
   "services.title.2": "Soft Skills Trainings para la Industria IT",
   "services.2.text.op1":" Diseño y ejecución de soluciones de aprendizaje en Soft Skills para el desarrollo profesional y la gestión de talento.",
@@ -67,11 +66,10 @@
   "services.4.text.op5":"Entrevistas y elaboración de informes. ",
   "services.4.text.op6":"Fidelización y engagement del talento.",
 
-  "services.title.5": "Consultoría Legal IT",
-  "services.5.text.op1":"Legal IT para startups y contractors. ",
-  "services.5.text.op2":"Asesoría y armado de modelos societarios, contratos, propiedad intelectual de software, marcas y procesos, copyright, derechos de autor y modelos de confidencialidad.",
-  "services.5.text.op3": "Negociación de contratos, cobros y finanzas. Asesoría sobre procedimientos de trabajo para el exterior.",
-  "services.5.text.op4":"Desarrollo de compliance; terminos y condiciones, políticas de privacidad y políticas de cookies y métricas. AML (anti money laundering).",
+  "services.title.5": "Consultoría Legal IT para startups y contractors",
+  "services.5.text.op1":"Asesoría y armado de modelos societarios, contratos, propiedad intelectual de software, marcas y procesos, copyright, derechos de autor y modelos de confidencialidad.",
+  "services.5.text.op2": "Negociación de contratos, cobros y finanzas. Asesoría sobre procedimientos de trabajo para el exterior.",
+  "services.5.text.op3":"Desarrollo de compliance; terminos y condiciones, políticas de privacidad y políticas de cookies y métricas. AML (anti money laundering).",
 
 
 
@@ -104,7 +102,7 @@
 "dana.3":"Coach Ontológico y Organizacional.",
 "dana.4":"Asesora de Imagen.",
 
-"pablo.1":"Con Pablo te damos toda la asesoría legal y compliance que necesitás para proteger y desarrollar tu proyecto IT.",
+"pablo.1":"Con Pablo te asesoramos legalmente para que puedas proteger y desarrollar tu proyecto IT.",
 
 
 "daiana.1":"Con Dai sumamos  experiencia en Gestión de Empresas y RRHH.",

@@ -3,7 +3,6 @@ import "../styles/Servicios.css";
 
 import { FiChevronDown } from "react-icons/fi";
 import { useTranslation } from "react-i18next";
-import { MdPersonSearch } from "react-icons/md";
 import { IoDocumentTextSharp } from "react-icons/io5";
 
 
@@ -31,7 +30,7 @@ const Servicios5 = () => {
         </div>
 
         <div className="Serv-box-content2">
-          <h5 className="Serv-box-title">{t("services.title.5")}</h5>
+          <h5 className="Serv-box-title5">{t("services.title.5")}</h5>
 
           <div className={click ? "Serv-box-text2 open" : "Serv-box-text2"}>
             <ul>
@@ -45,10 +44,7 @@ const Servicios5 = () => {
                   {t( "services.5.text.op3")}
                 </li>
 
-                <li>
-                  {t( "services.5.text.op4")}
-                  
-                </li>
+             
 
                
               

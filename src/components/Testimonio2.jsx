@@ -21,7 +21,7 @@ const Testimonios = () => {
 
   return (
    
-        <div className="testimonio-box" data-aos="fade-left">
+        <div className="testimonio-box" data-aos="fade-right">
         <h4 className="testimonio-title">{t("testimonio.2.title")}</h4>
         <q className="testimonio-text">
           {t("testimonio.2.text")}
@@ -31,7 +31,9 @@ const Testimonios = () => {
               setReadMore(!readMore);
             }}
           >
-            { !readMore &&  <span className="moreLess_text">{t("seemore")} <AiOutlinePlusCircle className="moreLess"/> </span>}
+            { !readMore &&  
+            <span className="moreLess_text">{t("seemore")} 
+            <AiOutlinePlusCircle className="moreLess"/> </span>}
           </a>
 
           {readMore &&
@@ -42,7 +44,8 @@ const Testimonios = () => {
               setReadMore(!readMore);
             }}
           >
-            <span className="moreLess_text">{t("seeless")}</span> <AiOutlineMinusCircle className="moreLess"/>  
+            <span className="moreLess_text">{t("seeless")}
+            </span> <AiOutlineMinusCircle className="moreLess"/>  
           </a>
           </p>
         }
