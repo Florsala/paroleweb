@@ -139,7 +139,7 @@ const Equipo = () => {
           </div>
         </div>
 
-        { i18n.language === "es" && (<div className="Eq-container-p-box">
+      <div className="Eq-container-p-box">
           <div className="box-img">
             <img src={pablo} alt="Pablo Bichara" />
             <div className="drop"></div>
@@ -151,7 +151,7 @@ const Equipo = () => {
               <a href="https://www.linkedin.com/in/pablobichara/" target={'blank'}><IoLogoLinkedin className="linkLogo"/></a>
             </ul>
           </div>
-        </div>)}
+        </div>
       </div>
 
        
